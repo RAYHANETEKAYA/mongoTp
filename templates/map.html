@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_50170810c43d8798ad5bcabc638e6bec {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_50170810c43d8798ad5bcabc638e6bec" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_50170810c43d8798ad5bcabc638e6bec = L.map(
+                "map_50170810c43d8798ad5bcabc638e6bec",
+                {
+                    center: [48.8748691, 2.3405331],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 15,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_27b258ffcdedc242862afa0c1b1ecb64 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_27b258ffcdedc242862afa0c1b1ecb64.addTo(map_50170810c43d8798ad5bcabc638e6bec);
+        
+    
+            var marker_0467aee28d7d5f5a51b19d7e92da290e = L.marker(
+                [48.8748691, 2.3405331],
+                {
+}
+            ).addTo(map_50170810c43d8798ad5bcabc638e6bec);
+        
+    
+            var icon_dc53987126e014bb180560fe8b51fab2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0467aee28d7d5f5a51b19d7e92da290e.setIcon(icon_dc53987126e014bb180560fe8b51fab2);
+        
+    
+        var popup_1e0ea76c6c3e47b3f3cea867f2c4ece2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9696029bb59e52aa11d8d838e76fd393 = $(`<div id="html_9696029bb59e52aa11d8d838e76fd393" style="width: 100.0%; height: 100.0%;">Votre position</div>`)[0];
+                popup_1e0ea76c6c3e47b3f3cea867f2c4ece2.setContent(html_9696029bb59e52aa11d8d838e76fd393);
+            
+        
+
+        marker_0467aee28d7d5f5a51b19d7e92da290e.bindPopup(popup_1e0ea76c6c3e47b3f3cea867f2c4ece2)
+        ;
+
+        
+    
+    
+            var marker_c7380e1b1cf1d44bec2aef34cb57e3c2 = L.marker(
+                [48.875254549053, 2.3408536612988],
+                {
+}
+            ).addTo(map_50170810c43d8798ad5bcabc638e6bec);
+        
+    
+            var icon_cd6438d9959a24eb62f4ce5236f13141 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c7380e1b1cf1d44bec2aef34cb57e3c2.setIcon(icon_cd6438d9959a24eb62f4ce5236f13141);
+        
+    
+        var popup_3ccaeaa829ac62585d7a3556c98472b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a45412ce0e1bb14f97ad254a1ca371d = $(`<div id="html_4a45412ce0e1bb14f97ad254a1ca371d" style="width: 100.0%; height: 100.0%;">         <b>Faubourg Montmartre - La Fayette</b><br>         Distance : 48.89 m<br>         Capacité : 35<br>         Vélos  disponibles : 5<br>         </div>`)[0];
+                popup_3ccaeaa829ac62585d7a3556c98472b5.setContent(html_4a45412ce0e1bb14f97ad254a1ca371d);
+            
+        
+
+        marker_c7380e1b1cf1d44bec2aef34cb57e3c2.bindPopup(popup_3ccaeaa829ac62585d7a3556c98472b5)
+        ;
+
+        
+    
+    
+            var marker_208016ea86d0a25cf1cc2ba97ef115b3 = L.marker(
+                [48.87334627510507, 2.337980867701675],
+                {
+}
+            ).addTo(map_50170810c43d8798ad5bcabc638e6bec);
+        
+    
+            var icon_e7ae0d5f83d73908e861f196d9f59394 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_208016ea86d0a25cf1cc2ba97ef115b3.setIcon(icon_e7ae0d5f83d73908e861f196d9f59394);
+        
+    
+        var popup_551e0f0205bf3d2cf5412f5612c6590b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_860072c9cc4c556c31478f2525024a04 = $(`<div id="html_860072c9cc4c556c31478f2525024a04" style="width: 100.0%; height: 100.0%;">         <b>Rossini - Laffitte</b><br>         Distance : 252.45 m<br>         Capacité : 33<br>         Vélos  disponibles : 9<br>         </div>`)[0];
+                popup_551e0f0205bf3d2cf5412f5612c6590b.setContent(html_860072c9cc4c556c31478f2525024a04);
+            
+        
+
+        marker_208016ea86d0a25cf1cc2ba97ef115b3.bindPopup(popup_551e0f0205bf3d2cf5412f5612c6590b)
+        ;
+
+        
+    
+</script>
+</html>

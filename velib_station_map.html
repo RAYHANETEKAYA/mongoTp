@@ -1,0 +1,3686 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7228f6819644f49e67708c5d88581de1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7228f6819644f49e67708c5d88581de1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7228f6819644f49e67708c5d88581de1 = L.map(
+                "map_7228f6819644f49e67708c5d88581de1",
+                {
+                    center: [48.8566, 2.3522],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d5903688baa2200c7a568fd233d76ed7 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d5903688baa2200c7a568fd233d76ed7.addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var marker_c0ab9d890102128816f9c019ad0f1515 = L.marker(
+                [48.865983, 2.275725],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_2a48820e2eef3f6d7fe7bd4305052806 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c0ab9d890102128816f9c019ad0f1515.setIcon(icon_2a48820e2eef3f6d7fe7bd4305052806);
+        
+    
+        var popup_45c2b19f84c6bfe9385faeb4e0447959 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b7d7c53f381283af82253b47e9124b17 = $(`<div id="html_b7d7c53f381283af82253b47e9124b17" style="width: 100.0%; height: 100.0%;">             <b>Benjamin Godard - Victor Hugo</b><br>             Capacité : 35<br>             Vélos disponibles : 1<br>             Vélos mécaniques : 0<br>             Vélos électriques : 1<br>             </div>`)[0];
+                popup_45c2b19f84c6bfe9385faeb4e0447959.setContent(html_b7d7c53f381283af82253b47e9124b17);
+            
+        
+
+        marker_c0ab9d890102128816f9c019ad0f1515.bindPopup(popup_45c2b19f84c6bfe9385faeb4e0447959)
+        ;
+
+        
+    
+    
+            var marker_108d88a8d44a7f52cd84da18a14b255b = L.marker(
+                [48.87929591733507, 2.3373600840568547],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_ca0ac02d40ce34701532a83be0c93fd3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_108d88a8d44a7f52cd84da18a14b255b.setIcon(icon_ca0ac02d40ce34701532a83be0c93fd3);
+        
+    
+        var popup_34855f9373f217b6bf008291bacc07ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c100b0233c37f3c4e72d80436e53cf0 = $(`<div id="html_1c100b0233c37f3c4e72d80436e53cf0" style="width: 100.0%; height: 100.0%;">             <b>Toudouze - Clauzel</b><br>             Capacité : 21<br>             Vélos disponibles : 4<br>             Vélos mécaniques : 1<br>             Vélos électriques : 3<br>             </div>`)[0];
+                popup_34855f9373f217b6bf008291bacc07ef.setContent(html_1c100b0233c37f3c4e72d80436e53cf0);
+            
+        
+
+        marker_108d88a8d44a7f52cd84da18a14b255b.bindPopup(popup_34855f9373f217b6bf008291bacc07ef)
+        ;
+
+        
+    
+    
+            var marker_b28c1cafbbfbf2df711f21858ffb6612 = L.marker(
+                [48.819428333369, 2.3433353751898],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_b20267dceffb37a6927eec20b133d05f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b28c1cafbbfbf2df711f21858ffb6612.setIcon(icon_b20267dceffb37a6927eec20b133d05f);
+        
+    
+        var popup_864f233b8035c2a29c12add450ebb972 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd2c890f51f818f6c78c1e343ec931f1 = $(`<div id="html_cd2c890f51f818f6c78c1e343ec931f1" style="width: 100.0%; height: 100.0%;">             <b>Jourdan - Stade Charléty</b><br>             Capacité : 60<br>             Vélos disponibles : 5<br>             Vélos mécaniques : 2<br>             Vélos électriques : 3<br>             </div>`)[0];
+                popup_864f233b8035c2a29c12add450ebb972.setContent(html_cd2c890f51f818f6c78c1e343ec931f1);
+            
+        
+
+        marker_b28c1cafbbfbf2df711f21858ffb6612.bindPopup(popup_864f233b8035c2a29c12add450ebb972)
+        ;
+
+        
+    
+    
+            var marker_766a0f9baac39a8b297ba7d51ef64209 = L.marker(
+                [48.875448033960744, 2.315508019010038],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_5284ac24bf83792ae02e2ac85f192c70 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_766a0f9baac39a8b297ba7d51ef64209.setIcon(icon_5284ac24bf83792ae02e2ac85f192c70);
+        
+    
+        var popup_a189487b86d3ce2c692fce11ee078742 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c678e7b2aba5fdeb0fcb69267533d3bb = $(`<div id="html_c678e7b2aba5fdeb0fcb69267533d3bb" style="width: 100.0%; height: 100.0%;">             <b>Messine - Place Du Pérou</b><br>             Capacité : 12<br>             Vélos disponibles : 8<br>             Vélos mécaniques : 1<br>             Vélos électriques : 7<br>             </div>`)[0];
+                popup_a189487b86d3ce2c692fce11ee078742.setContent(html_c678e7b2aba5fdeb0fcb69267533d3bb);
+            
+        
+
+        marker_766a0f9baac39a8b297ba7d51ef64209.bindPopup(popup_a189487b86d3ce2c692fce11ee078742)
+        ;
+
+        
+    
+    
+            var marker_0d71161241ef495df834c1d5e082a270 = L.marker(
+                [48.835092787824, 2.3534681351338],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_f3465ebdcc187b062e031afb4a474301 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0d71161241ef495df834c1d5e082a270.setIcon(icon_f3465ebdcc187b062e031afb4a474301);
+        
+    
+        var popup_5ab6c81ec356d02a7b87279b89beb10c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82225526dd8260c2e28c0941d630acf8 = $(`<div id="html_82225526dd8260c2e28c0941d630acf8" style="width: 100.0%; height: 100.0%;">             <b>Le Brun - Gobelins</b><br>             Capacité : 48<br>             Vélos disponibles : 5<br>             Vélos mécaniques : 3<br>             Vélos électriques : 2<br>             </div>`)[0];
+                popup_5ab6c81ec356d02a7b87279b89beb10c.setContent(html_82225526dd8260c2e28c0941d630acf8);
+            
+        
+
+        marker_0d71161241ef495df834c1d5e082a270.bindPopup(popup_5ab6c81ec356d02a7b87279b89beb10c)
+        ;
+
+        
+    
+    
+            var marker_cfb6446470d434e963cd857d74594a36 = L.marker(
+                [48.85165383178419, 2.3308077827095985],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_2b7f704399df8c6c91974cb641ab94bb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_cfb6446470d434e963cd857d74594a36.setIcon(icon_2b7f704399df8c6c91974cb641ab94bb);
+        
+    
+        var popup_b5719e251019d519448042486576ba9b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_63f4a740897478d80e6f0d1fb310a3dc = $(`<div id="html_63f4a740897478d80e6f0d1fb310a3dc" style="width: 100.0%; height: 100.0%;">             <b>Saint-Sulpice</b><br>             Capacité : 21<br>             Vélos disponibles : 16<br>             Vélos mécaniques : 11<br>             Vélos électriques : 5<br>             </div>`)[0];
+                popup_b5719e251019d519448042486576ba9b.setContent(html_63f4a740897478d80e6f0d1fb310a3dc);
+            
+        
+
+        marker_cfb6446470d434e963cd857d74594a36.bindPopup(popup_b5719e251019d519448042486576ba9b)
+        ;
+
+        
+    
+    
+            var marker_6040f5f5155fd996c5ac1bdb52e0579d = L.marker(
+                [48.84389286531899, 2.3519663885235786],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_2d2ab6c100841b00f9e7d35c4d6d3601 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6040f5f5155fd996c5ac1bdb52e0579d.setIcon(icon_2d2ab6c100841b00f9e7d35c4d6d3601);
+        
+    
+        var popup_caa14657af66500a3a7873f0c49138bd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c682fe0aa2a49332b075cfb83edafdc7 = $(`<div id="html_c682fe0aa2a49332b075cfb83edafdc7" style="width: 100.0%; height: 100.0%;">             <b>Lacépède - Monge</b><br>             Capacité : 23<br>             Vélos disponibles : 5<br>             Vélos mécaniques : 0<br>             Vélos électriques : 5<br>             </div>`)[0];
+                popup_caa14657af66500a3a7873f0c49138bd.setContent(html_c682fe0aa2a49332b075cfb83edafdc7);
+            
+        
+
+        marker_6040f5f5155fd996c5ac1bdb52e0579d.bindPopup(popup_caa14657af66500a3a7873f0c49138bd)
+        ;
+
+        
+    
+    
+            var marker_34758619a7a962f33f58d964c6deec27 = L.marker(
+                [48.81580226360801, 2.376804985105991],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_8110e548e2892d965b7aef55646a5441 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_34758619a7a962f33f58d964c6deec27.setIcon(icon_8110e548e2892d965b7aef55646a5441);
+        
+    
+        var popup_8883c102e91a0f41afee6be326957ef9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37ce5de82c052fe8f2deabaab8741315 = $(`<div id="html_37ce5de82c052fe8f2deabaab8741315" style="width: 100.0%; height: 100.0%;">             <b>Pierre et Marie Curie - Maurice Thorez</b><br>             Capacité : 27<br>             Vélos disponibles : 1<br>             Vélos mécaniques : 0<br>             Vélos électriques : 1<br>             </div>`)[0];
+                popup_8883c102e91a0f41afee6be326957ef9.setContent(html_37ce5de82c052fe8f2deabaab8741315);
+            
+        
+
+        marker_34758619a7a962f33f58d964c6deec27.bindPopup(popup_8883c102e91a0f41afee6be326957ef9)
+        ;
+
+        
+    
+    
+            var marker_f739fcd5c8db2a0b2a81caa08af88b53 = L.marker(
+                [48.779035118572, 2.4609763908985],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_af6eb652e042688e66fa8779ff079027 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f739fcd5c8db2a0b2a81caa08af88b53.setIcon(icon_af6eb652e042688e66fa8779ff079027);
+        
+    
+        var popup_bccdba97f29ffb39b26f83b81d9157ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b73ec9e6e5ee3ac746b3a62771abef5b = $(`<div id="html_b73ec9e6e5ee3ac746b3a62771abef5b" style="width: 100.0%; height: 100.0%;">             <b>Bas du Mont-Mesly</b><br>             Capacité : 27<br>             Vélos disponibles : 24<br>             Vélos mécaniques : 22<br>             Vélos électriques : 2<br>             </div>`)[0];
+                popup_bccdba97f29ffb39b26f83b81d9157ea.setContent(html_b73ec9e6e5ee3ac746b3a62771abef5b);
+            
+        
+
+        marker_f739fcd5c8db2a0b2a81caa08af88b53.bindPopup(popup_bccdba97f29ffb39b26f83b81d9157ea)
+        ;
+
+        
+    
+    
+            var marker_b519385ef46b0aa17adb3fdbddbdde1b = L.marker(
+                [48.835583838706, 2.2325500845909],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_38fb58cec07df4e67a65b165956b7cd7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b519385ef46b0aa17adb3fdbddbdde1b.setIcon(icon_38fb58cec07df4e67a65b165956b7cd7);
+        
+    
+        var popup_21fc63b7aea4cce55a88dae2e3e726bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_df5553004e3eecc603a819a131b00cfd = $(`<div id="html_df5553004e3eecc603a819a131b00cfd" style="width: 100.0%; height: 100.0%;">             <b>Silly - Galliéni</b><br>             Capacité : 25<br>             Vélos disponibles : 5<br>             Vélos mécaniques : 2<br>             Vélos électriques : 3<br>             </div>`)[0];
+                popup_21fc63b7aea4cce55a88dae2e3e726bb.setContent(html_df5553004e3eecc603a819a131b00cfd);
+            
+        
+
+        marker_b519385ef46b0aa17adb3fdbddbdde1b.bindPopup(popup_21fc63b7aea4cce55a88dae2e3e726bb)
+        ;
+
+        
+    
+    
+            var marker_8b42ca3057430a1fa65003bf7cb41027 = L.marker(
+                [48.862453313908, 2.1961666225454],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_5bc29ad160bd40ddda928d4f4c909a06 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8b42ca3057430a1fa65003bf7cb41027.setIcon(icon_5bc29ad160bd40ddda928d4f4c909a06);
+        
+    
+        var popup_6844182d1bb0ed470a6e16ec43df9f6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f6c176e2405eef0f119bf028c3d3ab4 = $(`<div id="html_3f6c176e2405eef0f119bf028c3d3ab4" style="width: 100.0%; height: 100.0%;">             <b>Place Nelson Mandela</b><br>             Capacité : 22<br>             Vélos disponibles : 2<br>             Vélos mécaniques : 2<br>             Vélos électriques : 0<br>             </div>`)[0];
+                popup_6844182d1bb0ed470a6e16ec43df9f6d.setContent(html_3f6c176e2405eef0f119bf028c3d3ab4);
+            
+        
+
+        marker_8b42ca3057430a1fa65003bf7cb41027.bindPopup(popup_6844182d1bb0ed470a6e16ec43df9f6d)
+        ;
+
+        
+    
+    
+            var marker_bc2a800eacf17754b109cbf24cd4a8e5 = L.marker(
+                [48.908168131015, 2.4530601033354],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_92a4eeb30365910ede7f0d4a27e679dc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bc2a800eacf17754b109cbf24cd4a8e5.setIcon(icon_92a4eeb30365910ede7f0d4a27e679dc);
+        
+    
+        var popup_d0f94581cd8f6c599f6e5285c33c3eb4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_edcbd5bf2e3bb47c2ea376b5847cbef6 = $(`<div id="html_edcbd5bf2e3bb47c2ea376b5847cbef6" style="width: 100.0%; height: 100.0%;">             <b>Jean Rostand - Paul Vaillant Couturier</b><br>             Capacité : 40<br>             Vélos disponibles : 22<br>             Vélos mécaniques : 18<br>             Vélos électriques : 4<br>             </div>`)[0];
+                popup_d0f94581cd8f6c599f6e5285c33c3eb4.setContent(html_edcbd5bf2e3bb47c2ea376b5847cbef6);
+            
+        
+
+        marker_bc2a800eacf17754b109cbf24cd4a8e5.bindPopup(popup_d0f94581cd8f6c599f6e5285c33c3eb4)
+        ;
+
+        
+    
+    
+            var marker_f48b7333af939321fc67603202a122d5 = L.marker(
+                [48.851296433665276, 2.325061820447445],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_11a6b256817ec9c25446fca336988b8d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f48b7333af939321fc67603202a122d5.setIcon(icon_11a6b256817ec9c25446fca336988b8d);
+        
+    
+        var popup_c337dfc32ae9cb8e3d38ccc5805fd119 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f7db3b653913253ce1fba708fd33cd25 = $(`<div id="html_f7db3b653913253ce1fba708fd33cd25" style="width: 100.0%; height: 100.0%;">             <b>Square Boucicaut</b><br>             Capacité : 60<br>             Vélos disponibles : 52<br>             Vélos mécaniques : 28<br>             Vélos électriques : 24<br>             </div>`)[0];
+                popup_c337dfc32ae9cb8e3d38ccc5805fd119.setContent(html_f7db3b653913253ce1fba708fd33cd25);
+            
+        
+
+        marker_f48b7333af939321fc67603202a122d5.bindPopup(popup_c337dfc32ae9cb8e3d38ccc5805fd119)
+        ;
+
+        
+    
+    
+            var marker_4bd5cebd421e719b4f460c7646ff63d3 = L.marker(
+                [48.84504716661511, 2.3494647851273465],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_c87114819ba1559faa610c34906142c3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4bd5cebd421e719b4f460c7646ff63d3.setIcon(icon_c87114819ba1559faa610c34906142c3);
+        
+    
+        var popup_ad05a23b782904d6a50ba0c5d3ccbbf4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_99e4856b2a421955bd1604a0d7b9fc40 = $(`<div id="html_99e4856b2a421955bd1604a0d7b9fc40" style="width: 100.0%; height: 100.0%;">             <b>Thouin - Cardinal Lemoine</b><br>             Capacité : 17<br>             Vélos disponibles : 10<br>             Vélos mécaniques : 1<br>             Vélos électriques : 9<br>             </div>`)[0];
+                popup_ad05a23b782904d6a50ba0c5d3ccbbf4.setContent(html_99e4856b2a421955bd1604a0d7b9fc40);
+            
+        
+
+        marker_4bd5cebd421e719b4f460c7646ff63d3.bindPopup(popup_ad05a23b782904d6a50ba0c5d3ccbbf4)
+        ;
+
+        
+    
+    
+            var marker_fbdbe4e38e233c0667905119a5278eab = L.marker(
+                [48.8570414504784, 2.37289470306807],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_7c203e477d56e4475fe32f6bac27e9e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fbdbe4e38e233c0667905119a5278eab.setIcon(icon_7c203e477d56e4475fe32f6bac27e9e5);
+        
+    
+        var popup_37e6e6813970277e2872d9efa30f816a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35279f2073c9eb1892713237e274fe09 = $(`<div id="html_35279f2073c9eb1892713237e274fe09" style="width: 100.0%; height: 100.0%;">             <b>Froment - Bréguet</b><br>             Capacité : 43<br>             Vélos disponibles : 33<br>             Vélos mécaniques : 32<br>             Vélos électriques : 1<br>             </div>`)[0];
+                popup_37e6e6813970277e2872d9efa30f816a.setContent(html_35279f2073c9eb1892713237e274fe09);
+            
+        
+
+        marker_fbdbe4e38e233c0667905119a5278eab.bindPopup(popup_37e6e6813970277e2872d9efa30f816a)
+        ;
+
+        
+    
+    
+            var marker_816c6d06511802b16c6f8419b3cfa3e6 = L.marker(
+                [48.83310149953933, 2.299380004405976],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_6800348f6eb94f382101ee2c09975f79 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_816c6d06511802b16c6f8419b3cfa3e6.setIcon(icon_6800348f6eb94f382101ee2c09975f79);
+        
+    
+        var popup_8695cc81ce7e0813475585321f915002 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f3cfe9cfc987eaed5e789121f021ef96 = $(`<div id="html_f3cfe9cfc987eaed5e789121f021ef96" style="width: 100.0%; height: 100.0%;">             <b>Morillons - Dantzig</b><br>             Capacité : 52<br>             Vélos disponibles : 2<br>             Vélos mécaniques : 1<br>             Vélos électriques : 1<br>             </div>`)[0];
+                popup_8695cc81ce7e0813475585321f915002.setContent(html_f3cfe9cfc987eaed5e789121f021ef96);
+            
+        
+
+        marker_816c6d06511802b16c6f8419b3cfa3e6.bindPopup(popup_8695cc81ce7e0813475585321f915002)
+        ;
+
+        
+    
+    
+            var marker_c22fa9a94f7650f4d6796d3e91298114 = L.marker(
+                [48.840855311763, 2.3875549435616],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_4e85021b211494ae46d7ea4453343dd1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c22fa9a94f7650f4d6796d3e91298114.setIcon(icon_4e85021b211494ae46d7ea4453343dd1);
+        
+    
+        var popup_ece2b6a8aa47ce0b709f2e763c694a31 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bcd76e67069266fed5abda3d9960606e = $(`<div id="html_bcd76e67069266fed5abda3d9960606e" style="width: 100.0%; height: 100.0%;">             <b>Mairie du 12ème</b><br>             Capacité : 30<br>             Vélos disponibles : 6<br>             Vélos mécaniques : 3<br>             Vélos électriques : 3<br>             </div>`)[0];
+                popup_ece2b6a8aa47ce0b709f2e763c694a31.setContent(html_bcd76e67069266fed5abda3d9960606e);
+            
+        
+
+        marker_c22fa9a94f7650f4d6796d3e91298114.bindPopup(popup_ece2b6a8aa47ce0b709f2e763c694a31)
+        ;
+
+        
+    
+    
+            var marker_895dc5ae18f28b94b6f1f3c804947309 = L.marker(
+                [48.871417284355, 2.3076787590981],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_89e9efed931715e8d9a74aec6da080d4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_895dc5ae18f28b94b6f1f3c804947309.setIcon(icon_89e9efed931715e8d9a74aec6da080d4);
+        
+    
+        var popup_3716bc24978febf83882bbad66c5bf43 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c0a3397f5a155fa3e67fd131dd75206b = $(`<div id="html_c0a3397f5a155fa3e67fd131dd75206b" style="width: 100.0%; height: 100.0%;">             <b>Boétie - Ponthieu</b><br>             Capacité : 45<br>             Vélos disponibles : 40<br>             Vélos mécaniques : 24<br>             Vélos électriques : 16<br>             </div>`)[0];
+                popup_3716bc24978febf83882bbad66c5bf43.setContent(html_c0a3397f5a155fa3e67fd131dd75206b);
+            
+        
+
+        marker_895dc5ae18f28b94b6f1f3c804947309.bindPopup(popup_3716bc24978febf83882bbad66c5bf43)
+        ;
+
+        
+    
+    
+            var marker_ad21f33693cf7c992c0106bef34aa511 = L.marker(
+                [48.86785, 2.446748],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_1696f411340c2957d2f2559d86405548 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ad21f33693cf7c992c0106bef34aa511.setIcon(icon_1696f411340c2957d2f2559d86405548);
+        
+    
+        var popup_25f9d03d871392c67e1a8c17da8781b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa58f8fd871dd914dee3e9bc60fce19d = $(`<div id="html_fa58f8fd871dd914dee3e9bc60fce19d" style="width: 100.0%; height: 100.0%;">             <b>Romainville - Vaillant-Couturier</b><br>             Capacité : 38<br>             Vélos disponibles : 2<br>             Vélos mécaniques : 1<br>             Vélos électriques : 1<br>             </div>`)[0];
+                popup_25f9d03d871392c67e1a8c17da8781b9.setContent(html_fa58f8fd871dd914dee3e9bc60fce19d);
+            
+        
+
+        marker_ad21f33693cf7c992c0106bef34aa511.bindPopup(popup_25f9d03d871392c67e1a8c17da8781b9)
+        ;
+
+        
+    
+    
+            var marker_422d2ba20200723d8d9b66d741876e43 = L.marker(
+                [48.768482147086, 2.4711590635627],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_b7b6775a0b740ce8628d3db6e00f92fb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_422d2ba20200723d8d9b66d741876e43.setIcon(icon_b7b6775a0b740ce8628d3db6e00f92fb);
+        
+    
+        var popup_38a6e58257467cbedca0413ddda22ecb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_90fc3caefc1c75ebf1c29a8947b5d017 = $(`<div id="html_90fc3caefc1c75ebf1c29a8947b5d017" style="width: 100.0%; height: 100.0%;">             <b>Sarrazins - Saussure</b><br>             Capacité : 1<br>             Vélos disponibles : 0<br>             Vélos mécaniques : 0<br>             Vélos électriques : 0<br>             </div>`)[0];
+                popup_38a6e58257467cbedca0413ddda22ecb.setContent(html_90fc3caefc1c75ebf1c29a8947b5d017);
+            
+        
+
+        marker_422d2ba20200723d8d9b66d741876e43.bindPopup(popup_38a6e58257467cbedca0413ddda22ecb)
+        ;
+
+        
+    
+    
+            var marker_ac7f9a3d0e71edc14f9065d2d64330a4 = L.marker(
+                [48.89792240854517, 2.32851451022192],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_88c7f221fe2298d0028f5f2ea9ffead9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ac7f9a3d0e71edc14f9065d2d64330a4.setIcon(icon_88c7f221fe2298d0028f5f2ea9ffead9);
+        
+    
+        var popup_fcdb36104436ad70f9f7ce48ac704a5b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e3fc4cff96cf0121b0b363146f45364 = $(`<div id="html_7e3fc4cff96cf0121b0b363146f45364" style="width: 100.0%; height: 100.0%;">             <b>Porte de Saint-Ouen - Bessières</b><br>             Capacité : 42<br>             Vélos disponibles : 3<br>             Vélos mécaniques : 2<br>             Vélos électriques : 1<br>             </div>`)[0];
+                popup_fcdb36104436ad70f9f7ce48ac704a5b.setContent(html_7e3fc4cff96cf0121b0b363146f45364);
+            
+        
+
+        marker_ac7f9a3d0e71edc14f9065d2d64330a4.bindPopup(popup_fcdb36104436ad70f9f7ce48ac704a5b)
+        ;
+
+        
+    
+    
+            var marker_466ef14e267f426544a0385f1a969d74 = L.marker(
+                [48.89594736851349, 2.381133802246315],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_1dff791088618e69b22b1b619071fe73 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_466ef14e267f426544a0385f1a969d74.setIcon(icon_1dff791088618e69b22b1b619071fe73);
+        
+    
+        var popup_49ee59fb9240d8c44ec2b8da3e0b234f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d8eda20deaeec0b81637ad66e02c3b5c = $(`<div id="html_d8eda20deaeec0b81637ad66e02c3b5c" style="width: 100.0%; height: 100.0%;">             <b>Cambrai - Benjamin Constant</b><br>             Capacité : 43<br>             Vélos disponibles : 6<br>             Vélos mécaniques : 4<br>             Vélos électriques : 2<br>             </div>`)[0];
+                popup_49ee59fb9240d8c44ec2b8da3e0b234f.setContent(html_d8eda20deaeec0b81637ad66e02c3b5c);
+            
+        
+
+        marker_466ef14e267f426544a0385f1a969d74.bindPopup(popup_49ee59fb9240d8c44ec2b8da3e0b234f)
+        ;
+
+        
+    
+    
+            var marker_1c48ab3a63045b025cbfdd5be844eb83 = L.marker(
+                [48.84884147189881, 2.426325418925233],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_1d3a83e5cd92e94cf397ba1aa93d0069 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1c48ab3a63045b025cbfdd5be844eb83.setIcon(icon_1d3a83e5cd92e94cf397ba1aa93d0069);
+        
+    
+        var popup_7815774c284893fb96801fb717984bdb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_956cd2b62b84855b1ccee7db2f5b14c9 = $(`<div id="html_956cd2b62b84855b1ccee7db2f5b14c9" style="width: 100.0%; height: 100.0%;">             <b>Lagny - Victor Basch</b><br>             Capacité : 26<br>             Vélos disponibles : 13<br>             Vélos mécaniques : 10<br>             Vélos électriques : 3<br>             </div>`)[0];
+                popup_7815774c284893fb96801fb717984bdb.setContent(html_956cd2b62b84855b1ccee7db2f5b14c9);
+            
+        
+
+        marker_1c48ab3a63045b025cbfdd5be844eb83.bindPopup(popup_7815774c284893fb96801fb717984bdb)
+        ;
+
+        
+    
+    
+            var marker_50371f76ef1165e3a90ca0d094862fc5 = L.marker(
+                [48.85772148887421, 2.2549109905958176],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_93a16b8b19c4c6ce2990fdf8d26c6788 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_50371f76ef1165e3a90ca0d094862fc5.setIcon(icon_93a16b8b19c4c6ce2990fdf8d26c6788);
+        
+    
+        var popup_dc45a7f0b78bfa37b2472519097fdda4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d2be779c3d4b4f5e2510099b9ef9a16 = $(`<div id="html_6d2be779c3d4b4f5e2510099b9ef9a16" style="width: 100.0%; height: 100.0%;">             <b>Saint-Cloud - Hippodrome</b><br>             Capacité : 30<br>             Vélos disponibles : 1<br>             Vélos mécaniques : 1<br>             Vélos électriques : 0<br>             </div>`)[0];
+                popup_dc45a7f0b78bfa37b2472519097fdda4.setContent(html_6d2be779c3d4b4f5e2510099b9ef9a16);
+            
+        
+
+        marker_50371f76ef1165e3a90ca0d094862fc5.bindPopup(popup_dc45a7f0b78bfa37b2472519097fdda4)
+        ;
+
+        
+    
+    
+            var marker_1f4bb4074552cc03c240abba0526d3a2 = L.marker(
+                [48.83823094269141, 2.270506024360657],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_6dda30c6e75f7183ab20330f69587b56 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1f4bb4074552cc03c240abba0526d3a2.setIcon(icon_6dda30c6e75f7183ab20330f69587b56);
+        
+    
+        var popup_1a4869e1f39aa720a84f41e7ee2565d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93050517ad1a17e5dd345cded2389ea1 = $(`<div id="html_93050517ad1a17e5dd345cded2389ea1" style="width: 100.0%; height: 100.0%;">             <b>Général Martial Valin - Pont du Garigliano</b><br>             Capacité : 16<br>             Vélos disponibles : 8<br>             Vélos mécaniques : 4<br>             Vélos électriques : 4<br>             </div>`)[0];
+                popup_1a4869e1f39aa720a84f41e7ee2565d5.setContent(html_93050517ad1a17e5dd345cded2389ea1);
+            
+        
+
+        marker_1f4bb4074552cc03c240abba0526d3a2.bindPopup(popup_1a4869e1f39aa720a84f41e7ee2565d5)
+        ;
+
+        
+    
+    
+            var marker_87af91921fa61c66955bdfca0dac1fde = L.marker(
+                [48.78980918988166, 2.3143940046429634],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_b95e5d178a8881363306466ee23b469b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_87af91921fa61c66955bdfca0dac1fde.setIcon(icon_b95e5d178a8881363306466ee23b469b);
+        
+    
+        var popup_b87e1f09eb0ba17fc3e7298d0307e203 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a5d5b9c1a04ab60c9a526182bd57fd5 = $(`<div id="html_7a5d5b9c1a04ab60c9a526182bd57fd5" style="width: 100.0%; height: 100.0%;">             <b>Rond-point du Dr Albert Schweitzer</b><br>             Capacité : 22<br>             Vélos disponibles : 4<br>             Vélos mécaniques : 2<br>             Vélos électriques : 2<br>             </div>`)[0];
+                popup_b87e1f09eb0ba17fc3e7298d0307e203.setContent(html_7a5d5b9c1a04ab60c9a526182bd57fd5);
+            
+        
+
+        marker_87af91921fa61c66955bdfca0dac1fde.bindPopup(popup_b87e1f09eb0ba17fc3e7298d0307e203)
+        ;
+
+        
+    
+    
+            var marker_5027cae2ab91be757d692146aa92198d = L.marker(
+                [48.892648526839, 2.2136941552162],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_8612a5f872d0a13b03e895482f3aa2ed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5027cae2ab91be757d692146aa92198d.setIcon(icon_8612a5f872d0a13b03e895482f3aa2ed);
+        
+    
+        var popup_38a2d7b404914f3ae65bc86fa2b539f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93b37f647ef7c37ca1356ce5cc7fa51a = $(`<div id="html_93b37f647ef7c37ca1356ce5cc7fa51a" style="width: 100.0%; height: 100.0%;">             <b>Théâtre des Amandiers - Palais des sports</b><br>             Capacité : 23<br>             Vélos disponibles : 8<br>             Vélos mécaniques : 4<br>             Vélos électriques : 4<br>             </div>`)[0];
+                popup_38a2d7b404914f3ae65bc86fa2b539f1.setContent(html_93b37f647ef7c37ca1356ce5cc7fa51a);
+            
+        
+
+        marker_5027cae2ab91be757d692146aa92198d.bindPopup(popup_38a2d7b404914f3ae65bc86fa2b539f1)
+        ;
+
+        
+    
+    
+            var marker_100f1d7a8278f89f41325e01dc722419 = L.marker(
+                [48.8529945, 2.4247387],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_c666bb57677317ec6f5115da3c2c3fdf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_100f1d7a8278f89f41325e01dc722419.setIcon(icon_c666bb57677317ec6f5115da3c2c3fdf);
+        
+    
+        var popup_2c5aada306645aad73fcfb5305aa878c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b300acad50d5a4b5088e50801b5ec5c = $(`<div id="html_1b300acad50d5a4b5088e50801b5ec5c" style="width: 100.0%; height: 100.0%;">             <b>Raspail Barbès</b><br>             Capacité : 28<br>             Vélos disponibles : 3<br>             Vélos mécaniques : 3<br>             Vélos électriques : 0<br>             </div>`)[0];
+                popup_2c5aada306645aad73fcfb5305aa878c.setContent(html_1b300acad50d5a4b5088e50801b5ec5c);
+            
+        
+
+        marker_100f1d7a8278f89f41325e01dc722419.bindPopup(popup_2c5aada306645aad73fcfb5305aa878c)
+        ;
+
+        
+    
+    
+            var marker_ea5d08d10e19277f94e57f4b1b3bf82b = L.marker(
+                [48.79628807093802, 2.417212128639221],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_08f1653c5aa66363f0b122449ca08eb2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ea5d08d10e19277f94e57f4b1b3bf82b.setIcon(icon_08f1653c5aa66363f0b122449ca08eb2);
+        
+    
+        var popup_e7c92f96f40939efc612e5747f9f6273 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3cf25204da02578ffd08992a78631b2c = $(`<div id="html_3cf25204da02578ffd08992a78631b2c" style="width: 100.0%; height: 100.0%;">             <b>Jules Guesde - Pont du Port à l'Anglais</b><br>             Capacité : 30<br>             Vélos disponibles : 19<br>             Vélos mécaniques : 17<br>             Vélos électriques : 2<br>             </div>`)[0];
+                popup_e7c92f96f40939efc612e5747f9f6273.setContent(html_3cf25204da02578ffd08992a78631b2c);
+            
+        
+
+        marker_ea5d08d10e19277f94e57f4b1b3bf82b.bindPopup(popup_e7c92f96f40939efc612e5747f9f6273)
+        ;
+
+        
+    
+    
+            var marker_5f2539d87113723f57afdc64b1d74821 = L.marker(
+                [48.86785342111862, 2.349364310503006],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_7178f209b08e870eba2668b81f938318 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5f2539d87113723f57afdc64b1d74821.setIcon(icon_7178f209b08e870eba2668b81f938318);
+        
+    
+        var popup_11ade48f7161e532c4a2dfeb02769fad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9a12007d5549a13e7eb554f4178df17d = $(`<div id="html_9a12007d5549a13e7eb554f4178df17d" style="width: 100.0%; height: 100.0%;">             <b>Caire - Dussoubs</b><br>             Capacité : 40<br>             Vélos disponibles : 19<br>             Vélos mécaniques : 15<br>             Vélos électriques : 4<br>             </div>`)[0];
+                popup_11ade48f7161e532c4a2dfeb02769fad.setContent(html_9a12007d5549a13e7eb554f4178df17d);
+            
+        
+
+        marker_5f2539d87113723f57afdc64b1d74821.bindPopup(popup_11ade48f7161e532c4a2dfeb02769fad)
+        ;
+
+        
+    
+    
+            var marker_e5b2f00c00d37ef5569932f562f86fe3 = L.marker(
+                [48.87393521240818, 2.3064258322119713],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_298c0973d534981dc06cef8269ce7b94 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e5b2f00c00d37ef5569932f562f86fe3.setIcon(icon_298c0973d534981dc06cef8269ce7b94);
+        
+    
+        var popup_27c60541f819e72c50e8408a09a017b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2340a43f1a950bcac86f6cb6178a9e79 = $(`<div id="html_2340a43f1a950bcac86f6cb6178a9e79" style="width: 100.0%; height: 100.0%;">             <b>Artois - Berri</b><br>             Capacité : 23<br>             Vélos disponibles : 15<br>             Vélos mécaniques : 1<br>             Vélos électriques : 14<br>             </div>`)[0];
+                popup_27c60541f819e72c50e8408a09a017b5.setContent(html_2340a43f1a950bcac86f6cb6178a9e79);
+            
+        
+
+        marker_e5b2f00c00d37ef5569932f562f86fe3.bindPopup(popup_27c60541f819e72c50e8408a09a017b5)
+        ;
+
+        
+    
+    
+            var marker_b89d215e1b2872a68661c2342d04bf5b = L.marker(
+                [48.868834023334, 2.2986030816809],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_c0233013493abab0309fbb86c8cec2a5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b89d215e1b2872a68661c2342d04bf5b.setIcon(icon_c0233013493abab0309fbb86c8cec2a5);
+        
+    
+        var popup_0e934f8141382830e03b894b3e8b0b64 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cee2dfcea124bd15bf9ea6fb141877c7 = $(`<div id="html_cee2dfcea124bd15bf9ea6fb141877c7" style="width: 100.0%; height: 100.0%;">             <b>Marceau - Chaillot</b><br>             Capacité : 21<br>             Vélos disponibles : 13<br>             Vélos mécaniques : 0<br>             Vélos électriques : 13<br>             </div>`)[0];
+                popup_0e934f8141382830e03b894b3e8b0b64.setContent(html_cee2dfcea124bd15bf9ea6fb141877c7);
+            
+        
+
+        marker_b89d215e1b2872a68661c2342d04bf5b.bindPopup(popup_0e934f8141382830e03b894b3e8b0b64)
+        ;
+
+        
+    
+    
+            var marker_460064cbad9c82b834f47023fa9d4bc7 = L.marker(
+                [48.8214169, 2.342167],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_6a5ee3605bb8619d922d76c42b521c3b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_460064cbad9c82b834f47023fa9d4bc7.setIcon(icon_6a5ee3605bb8619d922d76c42b521c3b);
+        
+    
+        var popup_b700a4fcf2e2f5e694d0259af163c8d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_84b3441aeb285fbc7a6598662f794cf0 = $(`<div id="html_84b3441aeb285fbc7a6598662f794cf0" style="width: 100.0%; height: 100.0%;">             <b>Liard - Amiral Mouchez</b><br>             Capacité : 28<br>             Vélos disponibles : 3<br>             Vélos mécaniques : 1<br>             Vélos électriques : 2<br>             </div>`)[0];
+                popup_b700a4fcf2e2f5e694d0259af163c8d6.setContent(html_84b3441aeb285fbc7a6598662f794cf0);
+            
+        
+
+        marker_460064cbad9c82b834f47023fa9d4bc7.bindPopup(popup_b700a4fcf2e2f5e694d0259af163c8d6)
+        ;
+
+        
+    
+    
+            var marker_5306f37ab5f2fd24b687ba29da209233 = L.marker(
+                [48.838683941628375, 2.3110422492027287],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_338ca0487258f90efcc497eeb1d3fcf3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5306f37ab5f2fd24b687ba29da209233.setIcon(icon_338ca0487258f90efcc497eeb1d3fcf3);
+        
+    
+        var popup_e13678bdf0f29fb071b7cd7267b57da3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95f9dfbb8e85a856c7e626400656bf49 = $(`<div id="html_95f9dfbb8e85a856c7e626400656bf49" style="width: 100.0%; height: 100.0%;">             <b>Vigée-Lebrun - Anselme Payen</b><br>             Capacité : 24<br>             Vélos disponibles : 5<br>             Vélos mécaniques : 0<br>             Vélos électriques : 5<br>             </div>`)[0];
+                popup_e13678bdf0f29fb071b7cd7267b57da3.setContent(html_95f9dfbb8e85a856c7e626400656bf49);
+            
+        
+
+        marker_5306f37ab5f2fd24b687ba29da209233.bindPopup(popup_e13678bdf0f29fb071b7cd7267b57da3)
+        ;
+
+        
+    
+    
+            var marker_b25fc217cee3d891d1f62017fea69f2a = L.marker(
+                [48.88949630486821, 2.333393658804396],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_9820679729f0807a17e09ed242b10d2d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b25fc217cee3d891d1f62017fea69f2a.setIcon(icon_9820679729f0807a17e09ed242b10d2d);
+        
+    
+        var popup_aae54432805376faabe46f0022c4d868 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a18d62b83eb8b2100106f4efd5500a42 = $(`<div id="html_a18d62b83eb8b2100106f4efd5500a42" style="width: 100.0%; height: 100.0%;">             <b>Félix Ziem - Armand Gauthier</b><br>             Capacité : 25<br>             Vélos disponibles : 4<br>             Vélos mécaniques : 0<br>             Vélos électriques : 4<br>             </div>`)[0];
+                popup_aae54432805376faabe46f0022c4d868.setContent(html_a18d62b83eb8b2100106f4efd5500a42);
+            
+        
+
+        marker_b25fc217cee3d891d1f62017fea69f2a.bindPopup(popup_aae54432805376faabe46f0022c4d868)
+        ;
+
+        
+    
+    
+            var marker_59528f7078e107387d1ae33bb3fa4220 = L.marker(
+                [48.78448485079149, 2.35908430069685],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_c480e901c64c0698492d64fa3bbbb429 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_59528f7078e107387d1ae33bb3fa4220.setIcon(icon_c480e901c64c0698492d64fa3bbbb429);
+        
+    
+        var popup_a983e75487a85cb9d190877eee2c684a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce8d407dce2a3632e2832deb37cd72ad = $(`<div id="html_ce8d407dce2a3632e2832deb37cd72ad" style="width: 100.0%; height: 100.0%;">             <b>Youri Gagarine - Karl Marx</b><br>             Capacité : 22<br>             Vélos disponibles : 3<br>             Vélos mécaniques : 0<br>             Vélos électriques : 3<br>             </div>`)[0];
+                popup_a983e75487a85cb9d190877eee2c684a.setContent(html_ce8d407dce2a3632e2832deb37cd72ad);
+            
+        
+
+        marker_59528f7078e107387d1ae33bb3fa4220.bindPopup(popup_a983e75487a85cb9d190877eee2c684a)
+        ;
+
+        
+    
+    
+            var marker_46345c77a547e3bd429b3a2f84bb21d1 = L.marker(
+                [48.86106902949534, 2.2730283066630363],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_cc203adf181b2534444ee206aa87c245 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_46345c77a547e3bd429b3a2f84bb21d1.setIcon(icon_cc203adf181b2534444ee206aa87c245);
+        
+    
+        var popup_b447b248ccdff20a9bf47f5521366bd1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4cae3fc4de4f33255048a364b3a1d1e7 = $(`<div id="html_4cae3fc4de4f33255048a364b3a1d1e7" style="width: 100.0%; height: 100.0%;">             <b>Octave Feuillet - Albéric Magnard</b><br>             Capacité : 21<br>             Vélos disponibles : 5<br>             Vélos mécaniques : 0<br>             Vélos électriques : 5<br>             </div>`)[0];
+                popup_b447b248ccdff20a9bf47f5521366bd1.setContent(html_4cae3fc4de4f33255048a364b3a1d1e7);
+            
+        
+
+        marker_46345c77a547e3bd429b3a2f84bb21d1.bindPopup(popup_b447b248ccdff20a9bf47f5521366bd1)
+        ;
+
+        
+    
+    
+            var marker_3b2d284483467f79f3d3d7cb52225cb7 = L.marker(
+                [48.87759897050706, 2.348463758826256],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_50557a65a644c6ada7c717e332b6f0d1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3b2d284483467f79f3d3d7cb52225cb7.setIcon(icon_50557a65a644c6ada7c717e332b6f0d1);
+        
+    
+        var popup_66490e7fe8be96fff0d9ab3c379c241c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3fb72a0a4107b3fbe1d22aee8db84d5 = $(`<div id="html_d3fb72a0a4107b3fbe1d22aee8db84d5" style="width: 100.0%; height: 100.0%;">             <b>Bellefond - Poissonnière</b><br>             Capacité : 17<br>             Vélos disponibles : 6<br>             Vélos mécaniques : 5<br>             Vélos électriques : 1<br>             </div>`)[0];
+                popup_66490e7fe8be96fff0d9ab3c379c241c.setContent(html_d3fb72a0a4107b3fbe1d22aee8db84d5);
+            
+        
+
+        marker_3b2d284483467f79f3d3d7cb52225cb7.bindPopup(popup_66490e7fe8be96fff0d9ab3c379c241c)
+        ;
+
+        
+    
+    
+            var marker_b8e6813e644dba289d8a8374b1cacf66 = L.marker(
+                [48.87320440102894, 2.323658830743138],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_b2545e3c80ec457cd83b2eed16d11a3b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b8e6813e644dba289d8a8374b1cacf66.setIcon(icon_b2545e3c80ec457cd83b2eed16d11a3b);
+        
+    
+        var popup_f76a5fc9a825ff68408bb31030a6d2e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2011518bc183e8856a839269187bef3 = $(`<div id="html_c2011518bc183e8856a839269187bef3" style="width: 100.0%; height: 100.0%;">             <b>Square Louis XVI</b><br>             Capacité : 29<br>             Vélos disponibles : 24<br>             Vélos mécaniques : 21<br>             Vélos électriques : 3<br>             </div>`)[0];
+                popup_f76a5fc9a825ff68408bb31030a6d2e2.setContent(html_c2011518bc183e8856a839269187bef3);
+            
+        
+
+        marker_b8e6813e644dba289d8a8374b1cacf66.bindPopup(popup_f76a5fc9a825ff68408bb31030a6d2e2)
+        ;
+
+        
+    
+    
+            var marker_a54f0ae8feb79bd4b77168dfb2322b9f = L.marker(
+                [48.880726, 2.351464],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_28899758e5b3d6ff12867cb0eba7dad5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a54f0ae8feb79bd4b77168dfb2322b9f.setIcon(icon_28899758e5b3d6ff12867cb0eba7dad5);
+        
+    
+        var popup_5cddc673b04e146932a8cbb786b269ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ee51bc257548f2db57a53b8dca8c283 = $(`<div id="html_7ee51bc257548f2db57a53b8dca8c283" style="width: 100.0%; height: 100.0%;">             <b>Dunkerque - Rocroy</b><br>             Capacité : 24<br>             Vélos disponibles : 2<br>             Vélos mécaniques : 0<br>             Vélos électriques : 2<br>             </div>`)[0];
+                popup_5cddc673b04e146932a8cbb786b269ff.setContent(html_7ee51bc257548f2db57a53b8dca8c283);
+            
+        
+
+        marker_a54f0ae8feb79bd4b77168dfb2322b9f.bindPopup(popup_5cddc673b04e146932a8cbb786b269ff)
+        ;
+
+        
+    
+    
+            var marker_db4fa83e8c8fd85c572daeb88c5cbec9 = L.marker(
+                [48.875642647477, 2.3594588041306],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_b01fd0b195672f6a6996ab741d3207a1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_db4fa83e8c8fd85c572daeb88c5cbec9.setIcon(icon_b01fd0b195672f6a6996ab741d3207a1);
+        
+    
+        var popup_76bffe38dcd8d2f3749fdf49a0cf0183 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_562a9047b0edb63c1d6aaa16330cdff3 = $(`<div id="html_562a9047b0edb63c1d6aaa16330cdff3" style="width: 100.0%; height: 100.0%;">             <b>Gare de l'Est - Faubourg-Saint-Martin</b><br>             Capacité : 32<br>             Vélos disponibles : 12<br>             Vélos mécaniques : 11<br>             Vélos électriques : 1<br>             </div>`)[0];
+                popup_76bffe38dcd8d2f3749fdf49a0cf0183.setContent(html_562a9047b0edb63c1d6aaa16330cdff3);
+            
+        
+
+        marker_db4fa83e8c8fd85c572daeb88c5cbec9.bindPopup(popup_76bffe38dcd8d2f3749fdf49a0cf0183)
+        ;
+
+        
+    
+    
+            var marker_aefb59aac0b96342accc347ecb8dff7f = L.marker(
+                [48.8462904, 2.3521495],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_596d57e884cb4aa097d98ac01861544c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_aefb59aac0b96342accc347ecb8dff7f.setIcon(icon_596d57e884cb4aa097d98ac01861544c);
+        
+    
+        var popup_82194802549c6bfc4008aa81b1c6e8b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_716fb94aeb874863850a49d5e8cfdf8b = $(`<div id="html_716fb94aeb874863850a49d5e8cfdf8b" style="width: 100.0%; height: 100.0%;">             <b>Boulangers - Cardinal Lemoine</b><br>             Capacité : 20<br>             Vélos disponibles : 14<br>             Vélos mécaniques : 9<br>             Vélos électriques : 5<br>             </div>`)[0];
+                popup_82194802549c6bfc4008aa81b1c6e8b0.setContent(html_716fb94aeb874863850a49d5e8cfdf8b);
+            
+        
+
+        marker_aefb59aac0b96342accc347ecb8dff7f.bindPopup(popup_82194802549c6bfc4008aa81b1c6e8b0)
+        ;
+
+        
+    
+    
+            var marker_32efdd68f9ef388dbd2a07fb1ae650b9 = L.marker(
+                [48.816376985087, 2.2670380088932],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_636172bae02e26e5c10d53cefa5ff220 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_32efdd68f9ef388dbd2a07fb1ae650b9.setIcon(icon_636172bae02e26e5c10d53cefa5ff220);
+        
+    
+        var popup_30e9c1feac062e824fdd060b4336ad46 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_78e58db3d183c4579cecc51cdcd052fa = $(`<div id="html_78e58db3d183c4579cecc51cdcd052fa" style="width: 100.0%; height: 100.0%;">             <b>Verger - Colonel Guichard</b><br>             Capacité : 29<br>             Vélos disponibles : 0<br>             Vélos mécaniques : 0<br>             Vélos électriques : 0<br>             </div>`)[0];
+                popup_30e9c1feac062e824fdd060b4336ad46.setContent(html_78e58db3d183c4579cecc51cdcd052fa);
+            
+        
+
+        marker_32efdd68f9ef388dbd2a07fb1ae650b9.bindPopup(popup_30e9c1feac062e824fdd060b4336ad46)
+        ;
+
+        
+    
+    
+            var marker_cecdc87729d4d496feba07c2509ef4a2 = L.marker(
+                [48.87973954830735, 2.288012132048607],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_c6d9bcb23aa4ff987dd4be9a621c8e15 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_cecdc87729d4d496feba07c2509ef4a2.setIcon(icon_c6d9bcb23aa4ff987dd4be9a621c8e15);
+        
+    
+        var popup_295dc1c37dc073dd874369a8fd98cf5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f34b95aadb4fe7236718eed546fb0af3 = $(`<div id="html_f34b95aadb4fe7236718eed546fb0af3" style="width: 100.0%; height: 100.0%;">             <b>Pereire - Ternes</b><br>             Capacité : 48<br>             Vélos disponibles : 8<br>             Vélos mécaniques : 7<br>             Vélos électriques : 1<br>             </div>`)[0];
+                popup_295dc1c37dc073dd874369a8fd98cf5f.setContent(html_f34b95aadb4fe7236718eed546fb0af3);
+            
+        
+
+        marker_cecdc87729d4d496feba07c2509ef4a2.bindPopup(popup_295dc1c37dc073dd874369a8fd98cf5f)
+        ;
+
+        
+    
+    
+            var marker_38f1314ffe4af3c675fa4a76ad62e584 = L.marker(
+                [48.841795009027, 2.3767850184816],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_e7d364cb414a4c13f7562ffd93b8c391 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_38f1314ffe4af3c675fa4a76ad62e584.setIcon(icon_e7d364cb414a4c13f7562ffd93b8c391);
+        
+    
+        var popup_8c5b1a3409698b8b24d36aa09418e6ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d7cdbdec9dbad169b6ee126a20de6ad = $(`<div id="html_4d7cdbdec9dbad169b6ee126a20de6ad" style="width: 100.0%; height: 100.0%;">             <b>Bercy - Villot</b><br>             Capacité : 33<br>             Vélos disponibles : 34<br>             Vélos mécaniques : 23<br>             Vélos électriques : 11<br>             </div>`)[0];
+                popup_8c5b1a3409698b8b24d36aa09418e6ff.setContent(html_4d7cdbdec9dbad169b6ee126a20de6ad);
+            
+        
+
+        marker_38f1314ffe4af3c675fa4a76ad62e584.bindPopup(popup_8c5b1a3409698b8b24d36aa09418e6ff)
+        ;
+
+        
+    
+    
+            var marker_7340d962201b0d7e28aeb7bd6f2d0f68 = L.marker(
+                [48.88115023337061, 2.480436824262142],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_09c8df3deb1c687b444bc6e42d731fdf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7340d962201b0d7e28aeb7bd6f2d0f68.setIcon(icon_09c8df3deb1c687b444bc6e42d731fdf);
+        
+    
+        var popup_96bebb4e60be4b1990f773daaaa17663 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_db7bfa5a10ecac01ba8f512b9dac5dee = $(`<div id="html_db7bfa5a10ecac01ba8f512b9dac5dee" style="width: 100.0%; height: 100.0%;">             <b>Gare Rosny-Bois-Perrier</b><br>             Capacité : 36<br>             Vélos disponibles : 22<br>             Vélos mécaniques : 1<br>             Vélos électriques : 21<br>             </div>`)[0];
+                popup_96bebb4e60be4b1990f773daaaa17663.setContent(html_db7bfa5a10ecac01ba8f512b9dac5dee);
+            
+        
+
+        marker_7340d962201b0d7e28aeb7bd6f2d0f68.bindPopup(popup_96bebb4e60be4b1990f773daaaa17663)
+        ;
+
+        
+    
+    
+            var marker_bfc1eb0f49833f421b5b74c665d0bde1 = L.marker(
+                [48.8978765, 2.3230632],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_3b331dff29ef7110a41e2c6e758e4fbe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bfc1eb0f49833f421b5b74c665d0bde1.setIcon(icon_3b331dff29ef7110a41e2c6e758e4fbe);
+        
+    
+        var popup_4014d23727445c15af43c2759c30104c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_36977a68fe7385ab2f65a4a372178488 = $(`<div id="html_36977a68fe7385ab2f65a4a372178488" style="width: 100.0%; height: 100.0%;">             <b>Porte Pouchet-Bessières</b><br>             Capacité : 23<br>             Vélos disponibles : 7<br>             Vélos mécaniques : 5<br>             Vélos électriques : 2<br>             </div>`)[0];
+                popup_4014d23727445c15af43c2759c30104c.setContent(html_36977a68fe7385ab2f65a4a372178488);
+            
+        
+
+        marker_bfc1eb0f49833f421b5b74c665d0bde1.bindPopup(popup_4014d23727445c15af43c2759c30104c)
+        ;
+
+        
+    
+    
+            var marker_cba10967ac69875cfe4057c3385221fe = L.marker(
+                [48.874750203957, 2.301771435326],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_fa8d18be6978b73887c27b5ab0561c96 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_cba10967ac69875cfe4057c3385221fe.setIcon(icon_fa8d18be6978b73887c27b5ab0561c96);
+        
+    
+        var popup_29449da2f73631f3041f9d014728ff18 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e0442ca7c1b50152542e39dfdcf17da = $(`<div id="html_6e0442ca7c1b50152542e39dfdcf17da" style="width: 100.0%; height: 100.0%;">             <b>Place Georges Guillaumin</b><br>             Capacité : 29<br>             Vélos disponibles : 16<br>             Vélos mécaniques : 3<br>             Vélos électriques : 13<br>             </div>`)[0];
+                popup_29449da2f73631f3041f9d014728ff18.setContent(html_6e0442ca7c1b50152542e39dfdcf17da);
+            
+        
+
+        marker_cba10967ac69875cfe4057c3385221fe.bindPopup(popup_29449da2f73631f3041f9d014728ff18)
+        ;
+
+        
+    
+    
+            var marker_2b4280ad29b743bd8f003b1d224640cd = L.marker(
+                [48.875254549053, 2.3408536612988],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_5bc5adfaa4ee7a20d5a68a37528fc3dc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2b4280ad29b743bd8f003b1d224640cd.setIcon(icon_5bc5adfaa4ee7a20d5a68a37528fc3dc);
+        
+    
+        var popup_084fd83b8fbb540e058c1f7a706bc316 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd76dd07957a0ecf68921250ae6d0546 = $(`<div id="html_dd76dd07957a0ecf68921250ae6d0546" style="width: 100.0%; height: 100.0%;">             <b>Faubourg Montmartre - La Fayette</b><br>             Capacité : 35<br>             Vélos disponibles : 26<br>             Vélos mécaniques : 21<br>             Vélos électriques : 5<br>             </div>`)[0];
+                popup_084fd83b8fbb540e058c1f7a706bc316.setContent(html_dd76dd07957a0ecf68921250ae6d0546);
+            
+        
+
+        marker_2b4280ad29b743bd8f003b1d224640cd.bindPopup(popup_084fd83b8fbb540e058c1f7a706bc316)
+        ;
+
+        
+    
+    
+            var marker_04b6921dac0dcfcfea245cdc62855e60 = L.marker(
+                [48.87219, 2.329423],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_d05c1962bea84317facac5b2c2ffaf2d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_04b6921dac0dcfcfea245cdc62855e60.setIcon(icon_d05c1962bea84317facac5b2c2ffaf2d);
+        
+    
+        var popup_9e899eb37ef6776506837e9a7d553a8d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66a54f342982ddd52a1bbf68e6f97be6 = $(`<div id="html_66a54f342982ddd52a1bbf68e6f97be6" style="width: 100.0%; height: 100.0%;">             <b>Boudreau - Auber</b><br>             Capacité : 28<br>             Vélos disponibles : 24<br>             Vélos mécaniques : 14<br>             Vélos électriques : 10<br>             </div>`)[0];
+                popup_9e899eb37ef6776506837e9a7d553a8d.setContent(html_66a54f342982ddd52a1bbf68e6f97be6);
+            
+        
+
+        marker_04b6921dac0dcfcfea245cdc62855e60.bindPopup(popup_9e899eb37ef6776506837e9a7d553a8d)
+        ;
+
+        
+    
+    
+            var marker_e611a67ada2be407244b4861cf704c8b = L.marker(
+                [48.814183748660554, 2.2872862592339516],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_830ede55100125bedaa968fe587fd5ee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e611a67ada2be407244b4861cf704c8b.setIcon(icon_830ede55100125bedaa968fe587fd5ee);
+        
+    
+        var popup_ae5153f22faf0b532beee2c3689058e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_916d5af137ff2da6e5955c44c6b58a9c = $(`<div id="html_916d5af137ff2da6e5955c44c6b58a9c" style="width: 100.0%; height: 100.0%;">             <b>Henri Barbusse - Stalingrad</b><br>             Capacité : 16<br>             Vélos disponibles : 2<br>             Vélos mécaniques : 0<br>             Vélos électriques : 2<br>             </div>`)[0];
+                popup_ae5153f22faf0b532beee2c3689058e3.setContent(html_916d5af137ff2da6e5955c44c6b58a9c);
+            
+        
+
+        marker_e611a67ada2be407244b4861cf704c8b.bindPopup(popup_ae5153f22faf0b532beee2c3689058e3)
+        ;
+
+        
+    
+    
+            var marker_8245eff0b500f1d4a66db5fbafbc6d85 = L.marker(
+                [48.88917613743794, 2.3833653330802917],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_542d6a1c8936603c31fbf3d6770cf0e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8245eff0b500f1d4a66db5fbafbc6d85.setIcon(icon_542d6a1c8936603c31fbf3d6770cf0e6);
+        
+    
+        var popup_55ff3d5e99373680fb2434c5ecc314b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eda40602475b7e0b41f49727bab3aaf6 = $(`<div id="html_eda40602475b7e0b41f49727bab3aaf6" style="width: 100.0%; height: 100.0%;">             <b>Thionville - Ourcq</b><br>             Capacité : 24<br>             Vélos disponibles : 3<br>             Vélos mécaniques : 2<br>             Vélos électriques : 1<br>             </div>`)[0];
+                popup_55ff3d5e99373680fb2434c5ecc314b4.setContent(html_eda40602475b7e0b41f49727bab3aaf6);
+            
+        
+
+        marker_8245eff0b500f1d4a66db5fbafbc6d85.bindPopup(popup_55ff3d5e99373680fb2434c5ecc314b4)
+        ;
+
+        
+    
+    
+            var marker_ef873275626194294588416e5b649231 = L.marker(
+                [48.87334627510507, 2.337980867701675],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_8521569a650bcd473b177cfd508fa615 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ef873275626194294588416e5b649231.setIcon(icon_8521569a650bcd473b177cfd508fa615);
+        
+    
+        var popup_ccf6363c2f539b68f8b4530993e20197 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3825bc119731fdc018eec5b318be2445 = $(`<div id="html_3825bc119731fdc018eec5b318be2445" style="width: 100.0%; height: 100.0%;">             <b>Rossini - Laffitte</b><br>             Capacité : 33<br>             Vélos disponibles : 19<br>             Vélos mécaniques : 10<br>             Vélos électriques : 9<br>             </div>`)[0];
+                popup_ccf6363c2f539b68f8b4530993e20197.setContent(html_3825bc119731fdc018eec5b318be2445);
+            
+        
+
+        marker_ef873275626194294588416e5b649231.bindPopup(popup_ccf6363c2f539b68f8b4530993e20197)
+        ;
+
+        
+    
+    
+            var marker_ab31c267c57c003dacb2f78fc18947a5 = L.marker(
+                [48.91864865955558, 2.2814112156629562],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_188abee50f9a440c1cc2a5acc694928a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ab31c267c57c003dacb2f78fc18947a5.setIcon(icon_188abee50f9a440c1cc2a5acc694928a);
+        
+    
+        var popup_de4a14c1e8166af1637801efdbe46000 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0115bf392a2b89b1df58ec1643c7dd28 = $(`<div id="html_0115bf392a2b89b1df58ec1643c7dd28" style="width: 100.0%; height: 100.0%;">             <b>Argenteuil - Voltaire</b><br>             Capacité : 16<br>             Vélos disponibles : 5<br>             Vélos mécaniques : 3<br>             Vélos électriques : 2<br>             </div>`)[0];
+                popup_de4a14c1e8166af1637801efdbe46000.setContent(html_0115bf392a2b89b1df58ec1643c7dd28);
+            
+        
+
+        marker_ab31c267c57c003dacb2f78fc18947a5.bindPopup(popup_de4a14c1e8166af1637801efdbe46000)
+        ;
+
+        
+    
+    
+            var marker_20125c9656cbf67a27314e60f2709878 = L.marker(
+                [48.884492238407525, 2.3703941702842717],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_66525e8f9000285600ec6aac060bc5f6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_20125c9656cbf67a27314e60f2709878.setIcon(icon_66525e8f9000285600ec6aac060bc5f6);
+        
+    
+        var popup_23a1e5ccd20aced1cfc8c5338d2d1d5c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_615259e3d97bcd2226f691e54c691112 = $(`<div id="html_615259e3d97bcd2226f691e54c691112" style="width: 100.0%; height: 100.0%;">             <b>Quai de la Seine</b><br>             Capacité : 24<br>             Vélos disponibles : 0<br>             Vélos mécaniques : 0<br>             Vélos électriques : 0<br>             </div>`)[0];
+                popup_23a1e5ccd20aced1cfc8c5338d2d1d5c.setContent(html_615259e3d97bcd2226f691e54c691112);
+            
+        
+
+        marker_20125c9656cbf67a27314e60f2709878.bindPopup(popup_23a1e5ccd20aced1cfc8c5338d2d1d5c)
+        ;
+
+        
+    
+    
+            var marker_93eff981c67da25267a48e3f21b0bc5a = L.marker(
+                [48.89577046284005, 2.223908342421055],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_edb30c48ddc9870cde83b790865dfa8f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_93eff981c67da25267a48e3f21b0bc5a.setIcon(icon_edb30c48ddc9870cde83b790865dfa8f);
+        
+    
+        var popup_5b52c727f1b2361b9e84dab6cfd238de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4c2e9435e87e7fbc117526b54110fa6 = $(`<div id="html_a4c2e9435e87e7fbc117526b54110fa6" style="width: 100.0%; height: 100.0%;">             <b>Pesaro - Préfecture</b><br>             Capacité : 22<br>             Vélos disponibles : 10<br>             Vélos mécaniques : 2<br>             Vélos électriques : 8<br>             </div>`)[0];
+                popup_5b52c727f1b2361b9e84dab6cfd238de.setContent(html_a4c2e9435e87e7fbc117526b54110fa6);
+            
+        
+
+        marker_93eff981c67da25267a48e3f21b0bc5a.bindPopup(popup_5b52c727f1b2361b9e84dab6cfd238de)
+        ;
+
+        
+    
+    
+            var marker_63ce10e4b80d0ad591689f3ca6b62aaf = L.marker(
+                [48.8554439, 2.2704418],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_6b72e6930e6b84492e4643f816b7b0a8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_63ce10e4b80d0ad591689f3ca6b62aaf.setIcon(icon_6b72e6930e6b84492e4643f816b7b0a8);
+        
+    
+        var popup_47d0eb1f90815635b5f00c7a87767f28 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e6f4487698362593ad48886db95f961a = $(`<div id="html_e6f4487698362593ad48886db95f961a" style="width: 100.0%; height: 100.0%;">             <b>Ranelagh - Mozart</b><br>             Capacité : 8<br>             Vélos disponibles : 3<br>             Vélos mécaniques : 0<br>             Vélos électriques : 3<br>             </div>`)[0];
+                popup_47d0eb1f90815635b5f00c7a87767f28.setContent(html_e6f4487698362593ad48886db95f961a);
+            
+        
+
+        marker_63ce10e4b80d0ad591689f3ca6b62aaf.bindPopup(popup_47d0eb1f90815635b5f00c7a87767f28)
+        ;
+
+        
+    
+    
+            var marker_d754a3b5125e7d2557cd6d7ea0681dfe = L.marker(
+                [48.88006587474148, 2.3310810327529907],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_6c2b916e6dd3d307b028ff7102980c48 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d754a3b5125e7d2557cd6d7ea0681dfe.setIcon(icon_6c2b916e6dd3d307b028ff7102980c48);
+        
+    
+        var popup_4edcc37b389ac9194cf4f6ada50753e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_10abbded2b66c48012a55da83d796a0c = $(`<div id="html_10abbded2b66c48012a55da83d796a0c" style="width: 100.0%; height: 100.0%;">             <b>Moncey - Blanche</b><br>             Capacité : 17<br>             Vélos disponibles : 5<br>             Vélos mécaniques : 0<br>             Vélos électriques : 5<br>             </div>`)[0];
+                popup_4edcc37b389ac9194cf4f6ada50753e9.setContent(html_10abbded2b66c48012a55da83d796a0c);
+            
+        
+
+        marker_d754a3b5125e7d2557cd6d7ea0681dfe.bindPopup(popup_4edcc37b389ac9194cf4f6ada50753e9)
+        ;
+
+        
+    
+    
+            var marker_a4ce3f5ba592ab27817de08883724afd = L.marker(
+                [48.881949, 2.352339],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_1ac7a6c6e025b9adaa574bc16bab4355 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a4ce3f5ba592ab27817de08883724afd.setIcon(icon_1ac7a6c6e025b9adaa574bc16bab4355);
+        
+    
+        var popup_a01a83752dad49ef6f8eeb39f770c849 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_815e495a6ab0d99b2dfa368bd08f6e9a = $(`<div id="html_815e495a6ab0d99b2dfa368bd08f6e9a" style="width: 100.0%; height: 100.0%;">             <b>Gare du Nord - Hôpital Lariboisière</b><br>             Capacité : 49<br>             Vélos disponibles : 2<br>             Vélos mécaniques : 1<br>             Vélos électriques : 1<br>             </div>`)[0];
+                popup_a01a83752dad49ef6f8eeb39f770c849.setContent(html_815e495a6ab0d99b2dfa368bd08f6e9a);
+            
+        
+
+        marker_a4ce3f5ba592ab27817de08883724afd.bindPopup(popup_a01a83752dad49ef6f8eeb39f770c849)
+        ;
+
+        
+    
+    
+            var marker_b12398292be3fd54bb165257bc621751 = L.marker(
+                [48.929867194519, 2.2836696356535],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_9e140fea6359bbf8eaefeedda39a7b45 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b12398292be3fd54bb165257bc621751.setIcon(icon_9e140fea6359bbf8eaefeedda39a7b45);
+        
+    
+        var popup_f1e843a4fe49160bdbd6fd0af67ec456 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8244a91d2294ff3a64b18a4e9aa1f12f = $(`<div id="html_8244a91d2294ff3a64b18a4e9aa1f12f" style="width: 100.0%; height: 100.0%;">             <b>Redoute - Les Courtilles</b><br>             Capacité : 40<br>             Vélos disponibles : 36<br>             Vélos mécaniques : 23<br>             Vélos électriques : 13<br>             </div>`)[0];
+                popup_f1e843a4fe49160bdbd6fd0af67ec456.setContent(html_8244a91d2294ff3a64b18a4e9aa1f12f);
+            
+        
+
+        marker_b12398292be3fd54bb165257bc621751.bindPopup(popup_f1e843a4fe49160bdbd6fd0af67ec456)
+        ;
+
+        
+    
+    
+            var marker_3caed1295e810f381b3d4c92acd19979 = L.marker(
+                [48.858688774062955, 2.383553994571467],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_23ea6ee426fe40987d1dceef6d697636 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3caed1295e810f381b3d4c92acd19979.setIcon(icon_23ea6ee426fe40987d1dceef6d697636);
+        
+    
+        var popup_8c62b797f61ea248cba54e3683c131fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5235cf946e2ec3bbeb0b4e30eb277b59 = $(`<div id="html_5235cf946e2ec3bbeb0b4e30eb277b59" style="width: 100.0%; height: 100.0%;">             <b>Saint-Maur - Roquette</b><br>             Capacité : 46<br>             Vélos disponibles : 4<br>             Vélos mécaniques : 1<br>             Vélos électriques : 3<br>             </div>`)[0];
+                popup_8c62b797f61ea248cba54e3683c131fc.setContent(html_5235cf946e2ec3bbeb0b4e30eb277b59);
+            
+        
+
+        marker_3caed1295e810f381b3d4c92acd19979.bindPopup(popup_8c62b797f61ea248cba54e3683c131fc)
+        ;
+
+        
+    
+    
+            var marker_c441aee07a7f18d63f818a0d1bb22318 = L.marker(
+                [48.80889533774377, 2.5382421165704727],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_292bf71a529ba286125e49a8201539fb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c441aee07a7f18d63f818a0d1bb22318.setIcon(icon_292bf71a529ba286125e49a8201539fb);
+        
+    
+        var popup_e459dae8e4180ff4adad5951762666c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3642110ff7b1744d52c7d68a48f787cf = $(`<div id="html_3642110ff7b1744d52c7d68a48f787cf" style="width: 100.0%; height: 100.0%;">             <b>11 Novembre 1918 - 8 Mai 1945</b><br>             Capacité : 36<br>             Vélos disponibles : 5<br>             Vélos mécaniques : 3<br>             Vélos électriques : 2<br>             </div>`)[0];
+                popup_e459dae8e4180ff4adad5951762666c1.setContent(html_3642110ff7b1744d52c7d68a48f787cf);
+            
+        
+
+        marker_c441aee07a7f18d63f818a0d1bb22318.bindPopup(popup_e459dae8e4180ff4adad5951762666c1)
+        ;
+
+        
+    
+    
+            var marker_7ed85beffc6fe30ffd374a982dbbb8c4 = L.marker(
+                [48.85507930579506, 2.3733686318721463],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_27e6e66d08f41d5b431a8a205bf4f060 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7ed85beffc6fe30ffd374a982dbbb8c4.setIcon(icon_27e6e66d08f41d5b431a8a205bf4f060);
+        
+    
+        var popup_d716012b5367050aedea23437bc7f241 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d581d84e127ca21b97edf7a4f754da76 = $(`<div id="html_d581d84e127ca21b97edf7a4f754da76" style="width: 100.0%; height: 100.0%;">             <b>Roquette - Thiéré</b><br>             Capacité : 23<br>             Vélos disponibles : 20<br>             Vélos mécaniques : 17<br>             Vélos électriques : 3<br>             </div>`)[0];
+                popup_d716012b5367050aedea23437bc7f241.setContent(html_d581d84e127ca21b97edf7a4f754da76);
+            
+        
+
+        marker_7ed85beffc6fe30ffd374a982dbbb8c4.bindPopup(popup_d716012b5367050aedea23437bc7f241)
+        ;
+
+        
+    
+    
+            var marker_9d1aa09a3bf355766ec8c71956bc068f = L.marker(
+                [48.893923963057865, 2.39790290594101],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_3325ae96a53b4d36daee25a136844398 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9d1aa09a3bf355766ec8c71956bc068f.setIcon(icon_3325ae96a53b4d36daee25a136844398);
+        
+    
+        var popup_685b82af78014a234685b520ca3c0cbf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3152e07cb484c5b3a3c3a92236d11021 = $(`<div id="html_3152e07cb484c5b3a3c3a92236d11021" style="width: 100.0%; height: 100.0%;">             <b>Delphine Seyrig - Général Leclerc</b><br>             Capacité : 53<br>             Vélos disponibles : 3<br>             Vélos mécaniques : 1<br>             Vélos électriques : 2<br>             </div>`)[0];
+                popup_685b82af78014a234685b520ca3c0cbf.setContent(html_3152e07cb484c5b3a3c3a92236d11021);
+            
+        
+
+        marker_9d1aa09a3bf355766ec8c71956bc068f.bindPopup(popup_685b82af78014a234685b520ca3c0cbf)
+        ;
+
+        
+    
+    
+            var marker_a181eeb71e4acf4c31c26d3ad45c2c6e = L.marker(
+                [48.8847601, 2.3534657],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_4a1ceae60e7743e82637961583a9bda3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a181eeb71e4acf4c31c26d3ad45c2c6e.setIcon(icon_4a1ceae60e7743e82637961583a9bda3);
+        
+    
+        var popup_4ec8bc8ddb7ebea19af7804bd69a6774 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3182126e1668da448faab5590999ad00 = $(`<div id="html_3182126e1668da448faab5590999ad00" style="width: 100.0%; height: 100.0%;">             <b>Chartres - La Charbonnière</b><br>             Capacité : 34<br>             Vélos disponibles : 3<br>             Vélos mécaniques : 0<br>             Vélos électriques : 3<br>             </div>`)[0];
+                popup_4ec8bc8ddb7ebea19af7804bd69a6774.setContent(html_3182126e1668da448faab5590999ad00);
+            
+        
+
+        marker_a181eeb71e4acf4c31c26d3ad45c2c6e.bindPopup(popup_4ec8bc8ddb7ebea19af7804bd69a6774)
+        ;
+
+        
+    
+    
+            var marker_d9afa20b7b52da36ad9ef6debab74e26 = L.marker(
+                [48.872010281270974, 2.392039597034455],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_806ec5ae153bd86b788b9378fb0972dd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d9afa20b7b52da36ad9ef6debab74e26.setIcon(icon_806ec5ae153bd86b788b9378fb0972dd);
+        
+    
+        var popup_be6478ec2fdbf25c384360b6bcaf64aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_555b3c030b8869736bb8c11f6593651a = $(`<div id="html_555b3c030b8869736bb8c11f6593651a" style="width: 100.0%; height: 100.0%;">             <b>Pyrénées - Emmery</b><br>             Capacité : 40<br>             Vélos disponibles : 4<br>             Vélos mécaniques : 0<br>             Vélos électriques : 4<br>             </div>`)[0];
+                popup_be6478ec2fdbf25c384360b6bcaf64aa.setContent(html_555b3c030b8869736bb8c11f6593651a);
+            
+        
+
+        marker_d9afa20b7b52da36ad9ef6debab74e26.bindPopup(popup_be6478ec2fdbf25c384360b6bcaf64aa)
+        ;
+
+        
+    
+    
+            var marker_6413fe726470289a67169e50c2cb9cc4 = L.marker(
+                [48.88364782887555, 2.2952447086572647],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_dfce37ede1913f0b78e5000e358a81b3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6413fe726470289a67169e50c2cb9cc4.setIcon(icon_dfce37ede1913f0b78e5000e358a81b3);
+        
+    
+        var popup_5a4edfc43e84c1aade9384890e9aaf4f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ff34f5dcee9dbcb6c4b21af267c4287 = $(`<div id="html_9ff34f5dcee9dbcb6c4b21af267c4287" style="width: 100.0%; height: 100.0%;">             <b>Pereire - Rennequin</b><br>             Capacité : 23<br>             Vélos disponibles : 4<br>             Vélos mécaniques : 1<br>             Vélos électriques : 3<br>             </div>`)[0];
+                popup_5a4edfc43e84c1aade9384890e9aaf4f.setContent(html_9ff34f5dcee9dbcb6c4b21af267c4287);
+            
+        
+
+        marker_6413fe726470289a67169e50c2cb9cc4.bindPopup(popup_5a4edfc43e84c1aade9384890e9aaf4f)
+        ;
+
+        
+    
+    
+            var marker_7a87aacaae8436ed11b4633f12d40cc7 = L.marker(
+                [48.82237977153955, 2.4586871266365056],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_a635118404bac7f07a81d69129d40810 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7a87aacaae8436ed11b4633f12d40cc7.setIcon(icon_a635118404bac7f07a81d69129d40810);
+        
+    
+        var popup_74e315422a520675724348876dc437bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b33bf5e19842c3a44702bdd1c72fc10d = $(`<div id="html_b33bf5e19842c3a44702bdd1c72fc10d" style="width: 100.0%; height: 100.0%;">             <b>Pyramide - Ecole du Breuil</b><br>             Capacité : 34<br>             Vélos disponibles : 19<br>             Vélos mécaniques : 15<br>             Vélos électriques : 4<br>             </div>`)[0];
+                popup_74e315422a520675724348876dc437bf.setContent(html_b33bf5e19842c3a44702bdd1c72fc10d);
+            
+        
+
+        marker_7a87aacaae8436ed11b4633f12d40cc7.bindPopup(popup_74e315422a520675724348876dc437bf)
+        ;
+
+        
+    
+    
+            var marker_4c9f4ee497da22288d0cba2c370ffac7 = L.marker(
+                [48.8795431, 2.3264628],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_33aa50bd85038433db329e3700ba1140 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4c9f4ee497da22288d0cba2c370ffac7.setIcon(icon_33aa50bd85038433db329e3700ba1140);
+        
+    
+        var popup_ce4dd86c9aa22e945cca0221befd97c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_83bdd7c63182a361a19b7e61bb0d7e8d = $(`<div id="html_83bdd7c63182a361a19b7e61bb0d7e8d" style="width: 100.0%; height: 100.0%;">             <b>Liège - Moscou</b><br>             Capacité : 17<br>             Vélos disponibles : 7<br>             Vélos mécaniques : 3<br>             Vélos électriques : 4<br>             </div>`)[0];
+                popup_ce4dd86c9aa22e945cca0221befd97c3.setContent(html_83bdd7c63182a361a19b7e61bb0d7e8d);
+            
+        
+
+        marker_4c9f4ee497da22288d0cba2c370ffac7.bindPopup(popup_ce4dd86c9aa22e945cca0221befd97c3)
+        ;
+
+        
+    
+    
+            var marker_7cbfb1d5c6d6e84ed867e5d4f5ddf035 = L.marker(
+                [48.86131452758348, 2.440614402294159],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_9304c86c12ca8c3e173a41ffb1ad7774 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7cbfb1d5c6d6e84ed867e5d4f5ddf035.setIcon(icon_9304c86c12ca8c3e173a41ffb1ad7774);
+        
+    
+        var popup_ac5042740e0cb30253c78ea8605bbaaa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_73b7348b3ff49a1c07688b97cf611063 = $(`<div id="html_73b7348b3ff49a1c07688b97cf611063" style="width: 100.0%; height: 100.0%;">             <b>Mairie de Montreuil</b><br>             Capacité : 52<br>             Vélos disponibles : 5<br>             Vélos mécaniques : 0<br>             Vélos électriques : 5<br>             </div>`)[0];
+                popup_ac5042740e0cb30253c78ea8605bbaaa.setContent(html_73b7348b3ff49a1c07688b97cf611063);
+            
+        
+
+        marker_7cbfb1d5c6d6e84ed867e5d4f5ddf035.bindPopup(popup_ac5042740e0cb30253c78ea8605bbaaa)
+        ;
+
+        
+    
+    
+            var marker_3fd68c80331c0e3db5ccb5b6aad4f406 = L.marker(
+                [48.8687591, 2.4329931],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_0156c92a36dd74b18bff44652bb0046b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3fd68c80331c0e3db5ccb5b6aad4f406.setIcon(icon_0156c92a36dd74b18bff44652bb0046b);
+        
+    
+        var popup_7c43ae8e1cf32cd282e10325951e538b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_03bf962259e2dcc4a0734b6c131b250d = $(`<div id="html_03bf962259e2dcc4a0734b6c131b250d" style="width: 100.0%; height: 100.0%;">             <b>Place Du Général De Gaulle</b><br>             Capacité : 26<br>             Vélos disponibles : 3<br>             Vélos mécaniques : 0<br>             Vélos électriques : 3<br>             </div>`)[0];
+                popup_7c43ae8e1cf32cd282e10325951e538b.setContent(html_03bf962259e2dcc4a0734b6c131b250d);
+            
+        
+
+        marker_3fd68c80331c0e3db5ccb5b6aad4f406.bindPopup(popup_7c43ae8e1cf32cd282e10325951e538b)
+        ;
+
+        
+    
+    
+            var marker_6160c0ed9b3e48e606a7c72075ed2fcf = L.marker(
+                [48.83649602312711, 2.479562651149885],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_68ba350fc8f0924b14354b7342a63bb5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6160c0ed9b3e48e606a7c72075ed2fcf.setIcon(icon_68ba350fc8f0924b14354b7342a63bb5);
+        
+    
+        var popup_e4002a51f87b6746710be1284cd0fe99 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0271ef11828c2e33990bd19a275aea4f = $(`<div id="html_0271ef11828c2e33990bd19a275aea4f" style="width: 100.0%; height: 100.0%;">             <b>Charles de Gaulle - Beauté</b><br>             Capacité : 49<br>             Vélos disponibles : 5<br>             Vélos mécaniques : 1<br>             Vélos électriques : 4<br>             </div>`)[0];
+                popup_e4002a51f87b6746710be1284cd0fe99.setContent(html_0271ef11828c2e33990bd19a275aea4f);
+            
+        
+
+        marker_6160c0ed9b3e48e606a7c72075ed2fcf.bindPopup(popup_e4002a51f87b6746710be1284cd0fe99)
+        ;
+
+        
+    
+    
+            var marker_e51bcc1afd01601437e1aaaa6739e1f3 = L.marker(
+                [48.821466904768, 2.3215785772007],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_810f830e35f993ddd5166ef2fcb0142c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e51bcc1afd01601437e1aaaa6739e1f3.setIcon(icon_810f830e35f993ddd5166ef2fcb0142c);
+        
+    
+        var popup_9d64b7b6c9b393a3957454b9c26610c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f79d8d91a4b28c2f1bc499021b88ec78 = $(`<div id="html_f79d8d91a4b28c2f1bc499021b88ec78" style="width: 100.0%; height: 100.0%;">             <b>Cimetière de Montrouge</b><br>             Capacité : 58<br>             Vélos disponibles : 1<br>             Vélos mécaniques : 0<br>             Vélos électriques : 1<br>             </div>`)[0];
+                popup_9d64b7b6c9b393a3957454b9c26610c9.setContent(html_f79d8d91a4b28c2f1bc499021b88ec78);
+            
+        
+
+        marker_e51bcc1afd01601437e1aaaa6739e1f3.bindPopup(popup_9d64b7b6c9b393a3957454b9c26610c9)
+        ;
+
+        
+    
+    
+            var marker_11a112b974339c608eeba4ca54ec9af6 = L.marker(
+                [48.83372430280548, 2.2713854536414146],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_8a3a6eba033485f249b89adc0089e2de = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_11a112b974339c608eeba4ca54ec9af6.setIcon(icon_8a3a6eba033485f249b89adc0089e2de);
+        
+    
+        var popup_a59080acd54acdb70b5524b27159db28 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_948935f136f3c8267dc4297f96dde702 = $(`<div id="html_948935f136f3c8267dc4297f96dde702" style="width: 100.0%; height: 100.0%;">             <b>Henry Farman</b><br>             Capacité : 16<br>             Vélos disponibles : 8<br>             Vélos mécaniques : 8<br>             Vélos électriques : 0<br>             </div>`)[0];
+                popup_a59080acd54acdb70b5524b27159db28.setContent(html_948935f136f3c8267dc4297f96dde702);
+            
+        
+
+        marker_11a112b974339c608eeba4ca54ec9af6.bindPopup(popup_a59080acd54acdb70b5524b27159db28)
+        ;
+
+        
+    
+    
+            var marker_947c7ba38cc85216b7cbb407c330491e = L.marker(
+                [48.87403113727167, 2.38959476351738],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_b9ad55497b733fed6b4f615bd447e403 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_947c7ba38cc85216b7cbb407c330491e.setIcon(icon_b9ad55497b733fed6b4f615bd447e403);
+        
+    
+        var popup_468e23e9cca1af116423664b090e706e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6228db493d192f100af8f04674afbba8 = $(`<div id="html_6228db493d192f100af8f04674afbba8" style="width: 100.0%; height: 100.0%;">             <b>Jourdain - Place des Grandes Rigoles</b><br>             Capacité : 22<br>             Vélos disponibles : 2<br>             Vélos mécaniques : 0<br>             Vélos électriques : 2<br>             </div>`)[0];
+                popup_468e23e9cca1af116423664b090e706e.setContent(html_6228db493d192f100af8f04674afbba8);
+            
+        
+
+        marker_947c7ba38cc85216b7cbb407c330491e.bindPopup(popup_468e23e9cca1af116423664b090e706e)
+        ;
+
+        
+    
+    
+            var marker_ca2a0a2a1efa14853acf9da31cf146fb = L.marker(
+                [48.8927825, 2.3635598],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_597275ebf41c43aacdd36c7c8c79596a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ca2a0a2a1efa14853acf9da31cf146fb.setIcon(icon_597275ebf41c43aacdd36c7c8c79596a);
+        
+    
+        var popup_0b20cfa8e04ea90b3561fe914cd4e077 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_94bbbaffdf4cd74e2b141433f969882e = $(`<div id="html_94bbbaffdf4cd74e2b141433f969882e" style="width: 100.0%; height: 100.0%;">             <b>Pajol - Place Herbert</b><br>             Capacité : 39<br>             Vélos disponibles : 0<br>             Vélos mécaniques : 0<br>             Vélos électriques : 0<br>             </div>`)[0];
+                popup_0b20cfa8e04ea90b3561fe914cd4e077.setContent(html_94bbbaffdf4cd74e2b141433f969882e);
+            
+        
+
+        marker_ca2a0a2a1efa14853acf9da31cf146fb.bindPopup(popup_0b20cfa8e04ea90b3561fe914cd4e077)
+        ;
+
+        
+    
+    
+            var marker_cea5c9e5f8ba0d16a083e62ac9615284 = L.marker(
+                [48.81217465201, 2.3035024699104],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_9a90cb688f9d9ba921737cf2312c166b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_cea5c9e5f8ba0d16a083e62ac9615284.setIcon(icon_9a90cb688f9d9ba921737cf2312c166b);
+        
+    
+        var popup_d4c9cb606b4cd181512b74b7364eabe7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba59fc780fa946ca69e8fffcdeaa0f9b = $(`<div id="html_ba59fc780fa946ca69e8fffcdeaa0f9b" style="width: 100.0%; height: 100.0%;">             <b>Marne - Germain Dardan</b><br>             Capacité : 22<br>             Vélos disponibles : 1<br>             Vélos mécaniques : 1<br>             Vélos électriques : 0<br>             </div>`)[0];
+                popup_d4c9cb606b4cd181512b74b7364eabe7.setContent(html_ba59fc780fa946ca69e8fffcdeaa0f9b);
+            
+        
+
+        marker_cea5c9e5f8ba0d16a083e62ac9615284.bindPopup(popup_d4c9cb606b4cd181512b74b7364eabe7)
+        ;
+
+        
+    
+    
+            var marker_9b4a607a8f711b3064d6e3bbf4f4d532 = L.marker(
+                [48.7985844, 2.3821302],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_414817cfd057cd2b6052eb7d23aaa993 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9b4a607a8f711b3064d6e3bbf4f4d532.setIcon(icon_414817cfd057cd2b6052eb7d23aaa993);
+        
+    
+        var popup_f29ab017f7dbd55f45f64f13ee9aa37e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21b2c9421da570e8400e0e61173bcc7e = $(`<div id="html_21b2c9421da570e8400e0e61173bcc7e" style="width: 100.0%; height: 100.0%;">             <b>Concorde - Stalingrad</b><br>             Capacité : 35<br>             Vélos disponibles : 5<br>             Vélos mécaniques : 0<br>             Vélos électriques : 5<br>             </div>`)[0];
+                popup_f29ab017f7dbd55f45f64f13ee9aa37e.setContent(html_21b2c9421da570e8400e0e61173bcc7e);
+            
+        
+
+        marker_9b4a607a8f711b3064d6e3bbf4f4d532.bindPopup(popup_f29ab017f7dbd55f45f64f13ee9aa37e)
+        ;
+
+        
+    
+    
+            var marker_3ffb2e304e145244d94c8ceef5ecd050 = L.marker(
+                [48.877436681515796, 2.3860743641853337],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_3b9f44f90e1ee80d77c2fa1a96f26ea0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3ffb2e304e145244d94c8ceef5ecd050.setIcon(icon_3b9f44f90e1ee80d77c2fa1a96f26ea0);
+        
+    
+        var popup_bd77e68dcaf43275754a002aa5fc609f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40f3f1e580ae17cff78a92ac1318805b = $(`<div id="html_40f3f1e580ae17cff78a92ac1318805b" style="width: 100.0%; height: 100.0%;">             <b>Carducci - Place Hannah Arendt</b><br>             Capacité : 27<br>             Vélos disponibles : 1<br>             Vélos mécaniques : 1<br>             Vélos électriques : 0<br>             </div>`)[0];
+                popup_bd77e68dcaf43275754a002aa5fc609f.setContent(html_40f3f1e580ae17cff78a92ac1318805b);
+            
+        
+
+        marker_3ffb2e304e145244d94c8ceef5ecd050.bindPopup(popup_bd77e68dcaf43275754a002aa5fc609f)
+        ;
+
+        
+    
+    
+            var marker_a131db86a56a152c2aad341c85f9631d = L.marker(
+                [48.837695319163, 2.2753742337227],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_bcc051a25929d1467e5a701932e10d7b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a131db86a56a152c2aad341c85f9631d.setIcon(icon_bcc051a25929d1467e5a701932e10d7b);
+        
+    
+        var popup_526523baffc3e5ca5d31f72bed71057b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_434d607a2efa53fd0c61e358fd93a47e = $(`<div id="html_434d607a2efa53fd0c61e358fd93a47e" style="width: 100.0%; height: 100.0%;">             <b>Hôpital Européen Georges Pompidou</b><br>             Capacité : 64<br>             Vélos disponibles : 58<br>             Vélos mécaniques : 47<br>             Vélos électriques : 11<br>             </div>`)[0];
+                popup_526523baffc3e5ca5d31f72bed71057b.setContent(html_434d607a2efa53fd0c61e358fd93a47e);
+            
+        
+
+        marker_a131db86a56a152c2aad341c85f9631d.bindPopup(popup_526523baffc3e5ca5d31f72bed71057b)
+        ;
+
+        
+    
+    
+            var marker_c594147c61c7e1f99dda5de9f124ede9 = L.marker(
+                [48.83681733526843, 2.3312794080411474],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_8e94cae576a21ce91ab14909f7f1f704 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c594147c61c7e1f99dda5de9f124ede9.setIcon(icon_8e94cae576a21ce91ab14909f7f1f704);
+        
+    
+        var popup_48f8508ff70c2e77afe7563c71b3a4f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_beb7eba72ba84b31e6958af36ff9e12a = $(`<div id="html_beb7eba72ba84b31e6958af36ff9e12a" style="width: 100.0%; height: 100.0%;">             <b>Schoelcher - Raspail</b><br>             Capacité : 50<br>             Vélos disponibles : 3<br>             Vélos mécaniques : 2<br>             Vélos électriques : 1<br>             </div>`)[0];
+                popup_48f8508ff70c2e77afe7563c71b3a4f7.setContent(html_beb7eba72ba84b31e6958af36ff9e12a);
+            
+        
+
+        marker_c594147c61c7e1f99dda5de9f124ede9.bindPopup(popup_48f8508ff70c2e77afe7563c71b3a4f7)
+        ;
+
+        
+    
+    
+            var marker_c3728e405cea2fb7fe8c6d78873df66b = L.marker(
+                [48.848225572724, 2.3502873256803],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_2e1a24b34e9b92f0e6271a2ba14197f6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c3728e405cea2fb7fe8c6d78873df66b.setIcon(icon_2e1a24b34e9b92f0e6271a2ba14197f6);
+        
+    
+        var popup_bc81ad5315271701801f74abe5b409eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c047a43cec953eead9573b2ab257dcc3 = $(`<div id="html_c047a43cec953eead9573b2ab257dcc3" style="width: 100.0%; height: 100.0%;">             <b>Mutualité</b><br>             Capacité : 37<br>             Vélos disponibles : 30<br>             Vélos mécaniques : 27<br>             Vélos électriques : 3<br>             </div>`)[0];
+                popup_bc81ad5315271701801f74abe5b409eb.setContent(html_c047a43cec953eead9573b2ab257dcc3);
+            
+        
+
+        marker_c3728e405cea2fb7fe8c6d78873df66b.bindPopup(popup_bc81ad5315271701801f74abe5b409eb)
+        ;
+
+        
+    
+    
+            var marker_3d8d165f6fad63c91e6042d9fb8809b8 = L.marker(
+                [48.88467214209463, 2.3919698596000676],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_a20248466e75ab83d612e4d6b95c707f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3d8d165f6fad63c91e6042d9fb8809b8.setIcon(icon_a20248466e75ab83d612e4d6b95c707f);
+        
+    
+        var popup_b9ea43555b1ce1b917d59059594a1ed2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9183d8febbeeba7f8a3fa248f131d126 = $(`<div id="html_9183d8febbeeba7f8a3fa248f131d126" style="width: 100.0%; height: 100.0%;">             <b>Manin - Carrières d'Amérique</b><br>             Capacité : 20<br>             Vélos disponibles : 0<br>             Vélos mécaniques : 0<br>             Vélos électriques : 0<br>             </div>`)[0];
+                popup_b9ea43555b1ce1b917d59059594a1ed2.setContent(html_9183d8febbeeba7f8a3fa248f131d126);
+            
+        
+
+        marker_3d8d165f6fad63c91e6042d9fb8809b8.bindPopup(popup_b9ea43555b1ce1b917d59059594a1ed2)
+        ;
+
+        
+    
+    
+            var marker_be794e0a62ac91dd23951ce3968c5ec6 = L.marker(
+                [48.828012849445, 2.3056878894567],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_8e9604642d57de3e62a1cadbde116766 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_be794e0a62ac91dd23951ce3968c5ec6.setIcon(icon_8e9604642d57de3e62a1cadbde116766);
+        
+    
+        var popup_653ceceeb5192bcb5efa40d0e0734a65 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_607eb14d407b01fa7be1d03148d59230 = $(`<div id="html_607eb14d407b01fa7be1d03148d59230" style="width: 100.0%; height: 100.0%;">             <b>Porte de Vanves</b><br>             Capacité : 32<br>             Vélos disponibles : 5<br>             Vélos mécaniques : 1<br>             Vélos électriques : 4<br>             </div>`)[0];
+                popup_653ceceeb5192bcb5efa40d0e0734a65.setContent(html_607eb14d407b01fa7be1d03148d59230);
+            
+        
+
+        marker_be794e0a62ac91dd23951ce3968c5ec6.bindPopup(popup_653ceceeb5192bcb5efa40d0e0734a65)
+        ;
+
+        
+    
+    
+            var marker_81876f5db42ad24d5ecce78226e1d634 = L.marker(
+                [48.843949064031825, 2.415081394834419],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_c52a18b5a0d09aa632ecf74d8416bd0b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_81876f5db42ad24d5ecce78226e1d634.setIcon(icon_c52a18b5a0d09aa632ecf74d8416bd0b);
+        
+    
+        var popup_99b7ac209a1d5bb75cb7d72882284f3c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ed3b6cef76b8213155c47b22eec6a24 = $(`<div id="html_5ed3b6cef76b8213155c47b22eec6a24" style="width: 100.0%; height: 100.0%;">             <b>Victor Hugo - Jeanne Jugan</b><br>             Capacité : 28<br>             Vélos disponibles : 5<br>             Vélos mécaniques : 3<br>             Vélos électriques : 2<br>             </div>`)[0];
+                popup_99b7ac209a1d5bb75cb7d72882284f3c.setContent(html_5ed3b6cef76b8213155c47b22eec6a24);
+            
+        
+
+        marker_81876f5db42ad24d5ecce78226e1d634.bindPopup(popup_99b7ac209a1d5bb75cb7d72882284f3c)
+        ;
+
+        
+    
+    
+            var marker_845f5413008dfe7860c1fcce9d8f6477 = L.marker(
+                [48.77093586667601, 2.4034014344215398],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_83e131095ca496614fb4ad2d3f592fa8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_845f5413008dfe7860c1fcce9d8f6477.setIcon(icon_83e131095ca496614fb4ad2d3f592fa8);
+        
+    
+        var popup_7e499053679a9d29ef7ab646ce740bb4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_071525424c65268b93d891ac7e56b747 = $(`<div id="html_071525424c65268b93d891ac7e56b747" style="width: 100.0%; height: 100.0%;">             <b>Conservatoire de Musique</b><br>             Capacité : 25<br>             Vélos disponibles : 5<br>             Vélos mécaniques : 2<br>             Vélos électriques : 3<br>             </div>`)[0];
+                popup_7e499053679a9d29ef7ab646ce740bb4.setContent(html_071525424c65268b93d891ac7e56b747);
+            
+        
+
+        marker_845f5413008dfe7860c1fcce9d8f6477.bindPopup(popup_7e499053679a9d29ef7ab646ce740bb4)
+        ;
+
+        
+    
+    
+            var marker_76bd8b7385983e4198dcb08e4f2c81e5 = L.marker(
+                [48.84706173362218, 2.4787822365760808],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_e30380d3d59fe8e9914d16598c5df21a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_76bd8b7385983e4198dcb08e4f2c81e5.setIcon(icon_e30380d3d59fe8e9914d16598c5df21a);
+        
+    
+        var popup_ddb95f45fe2451f28c55bc47678e306d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_65e7779a56734eb60b6369e4ac312d81 = $(`<div id="html_65e7779a56734eb60b6369e4ac312d81" style="width: 100.0%; height: 100.0%;">             <b>Cimetière de Fontenay-sous-Bois</b><br>             Capacité : 15<br>             Vélos disponibles : 1<br>             Vélos mécaniques : 0<br>             Vélos électriques : 1<br>             </div>`)[0];
+                popup_ddb95f45fe2451f28c55bc47678e306d.setContent(html_65e7779a56734eb60b6369e4ac312d81);
+            
+        
+
+        marker_76bd8b7385983e4198dcb08e4f2c81e5.bindPopup(popup_ddb95f45fe2451f28c55bc47678e306d)
+        ;
+
+        
+    
+    
+            var marker_c5b8bc6f2ee3cce06317bde28c531f8e = L.marker(
+                [48.837668272811, 2.3448138346607],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_c9c2c0ce9110390a49d72a51f01bd4a9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c5b8bc6f2ee3cce06317bde28c531f8e.setIcon(icon_c9c2c0ce9110390a49d72a51f01bd4a9);
+        
+    
+        var popup_e32433eb785615a946a71f12a3e8b096 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_908068d4fd4c9b36d693d196c2ab6a4c = $(`<div id="html_908068d4fd4c9b36d693d196c2ab6a4c" style="width: 100.0%; height: 100.0%;">             <b>Port-Royal - Hôpital du Val-de-Grâce</b><br>             Capacité : 18<br>             Vélos disponibles : 11<br>             Vélos mécaniques : 1<br>             Vélos électriques : 10<br>             </div>`)[0];
+                popup_e32433eb785615a946a71f12a3e8b096.setContent(html_908068d4fd4c9b36d693d196c2ab6a4c);
+            
+        
+
+        marker_c5b8bc6f2ee3cce06317bde28c531f8e.bindPopup(popup_e32433eb785615a946a71f12a3e8b096)
+        ;
+
+        
+    
+    
+            var marker_3f346a0c9966546b01bef67b375a9a43 = L.marker(
+                [48.87590240712654, 2.322616316378116],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_d1e637922b175a75ca25e701b7814e93 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3f346a0c9966546b01bef67b375a9a43.setIcon(icon_d1e637922b175a75ca25e701b7814e93);
+        
+    
+        var popup_62cdccd1295077fd07d043c3a6acca1c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15a96b8530c3be73594a68da838ea837 = $(`<div id="html_15a96b8530c3be73594a68da838ea837" style="width: 100.0%; height: 100.0%;">             <b>Rocher - Laborde</b><br>             Capacité : 65<br>             Vélos disponibles : 57<br>             Vélos mécaniques : 50<br>             Vélos électriques : 7<br>             </div>`)[0];
+                popup_62cdccd1295077fd07d043c3a6acca1c.setContent(html_15a96b8530c3be73594a68da838ea837);
+            
+        
+
+        marker_3f346a0c9966546b01bef67b375a9a43.bindPopup(popup_62cdccd1295077fd07d043c3a6acca1c)
+        ;
+
+        
+    
+    
+            var marker_6351eb719d951cc50433bb891227f441 = L.marker(
+                [48.83796366147599, 2.2877392172813416],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_72ab7fbd609ad329f328515cfc414dc9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6351eb719d951cc50433bb891227f441.setIcon(icon_72ab7fbd609ad329f328515cfc414dc9);
+        
+    
+        var popup_220310d6ad442d0cc0250295255a6172 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_42155627bf91d39dd390db7b2397f67e = $(`<div id="html_42155627bf91d39dd390db7b2397f67e" style="width: 100.0%; height: 100.0%;">             <b>Lecourbe - Jean Maridor</b><br>             Capacité : 19<br>             Vélos disponibles : 6<br>             Vélos mécaniques : 5<br>             Vélos électriques : 1<br>             </div>`)[0];
+                popup_220310d6ad442d0cc0250295255a6172.setContent(html_42155627bf91d39dd390db7b2397f67e);
+            
+        
+
+        marker_6351eb719d951cc50433bb891227f441.bindPopup(popup_220310d6ad442d0cc0250295255a6172)
+        ;
+
+        
+    
+    
+            var marker_9a1394677dc5c5691afd26b8bc21c3d6 = L.marker(
+                [48.84993035512154, 2.294612042605877],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_4c7741a0a7e22ff1f7305f0f2b55a783 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9a1394677dc5c5691afd26b8bc21c3d6.setIcon(icon_4c7741a0a7e22ff1f7305f0f2b55a783);
+        
+    
+        var popup_3d25bd07ebf7d3f81fe4592505fb4912 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d5b4303191731bc91f400344883aaaf = $(`<div id="html_1d5b4303191731bc91f400344883aaaf" style="width: 100.0%; height: 100.0%;">             <b>Grenelle - Violet</b><br>             Capacité : 35<br>             Vélos disponibles : 26<br>             Vélos mécaniques : 19<br>             Vélos électriques : 7<br>             </div>`)[0];
+                popup_3d25bd07ebf7d3f81fe4592505fb4912.setContent(html_1d5b4303191731bc91f400344883aaaf);
+            
+        
+
+        marker_9a1394677dc5c5691afd26b8bc21c3d6.bindPopup(popup_3d25bd07ebf7d3f81fe4592505fb4912)
+        ;
+
+        
+    
+    
+            var marker_8fc93d9621f7a5c3997a394c7298a907 = L.marker(
+                [48.84264375274712, 2.3445946723222733],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_a98be45bb8568b6996610636acebeb84 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8fc93d9621f7a5c3997a394c7298a907.setIcon(icon_a98be45bb8568b6996610636acebeb84);
+        
+    
+        var popup_3123df70d40feef5e59a3b47b2663823 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37da688b25b1779b8d4c866fe03d250f = $(`<div id="html_37da688b25b1779b8d4c866fe03d250f" style="width: 100.0%; height: 100.0%;">             <b>Erasme - Ulm</b><br>             Capacité : 24<br>             Vélos disponibles : 4<br>             Vélos mécaniques : 1<br>             Vélos électriques : 3<br>             </div>`)[0];
+                popup_3123df70d40feef5e59a3b47b2663823.setContent(html_37da688b25b1779b8d4c866fe03d250f);
+            
+        
+
+        marker_8fc93d9621f7a5c3997a394c7298a907.bindPopup(popup_3123df70d40feef5e59a3b47b2663823)
+        ;
+
+        
+    
+    
+            var marker_b3280c14d136a76d10ba47ffe7364228 = L.marker(
+                [48.825218683556734, 2.3107116669416428],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_4b99baac08ea88dec130f3678568e0bf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b3280c14d136a76d10ba47ffe7364228.setIcon(icon_4b99baac08ea88dec130f3678568e0bf);
+        
+    
+        var popup_9eb21f0658a6d3154d95528efabf2feb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_32ab45e942c2b6c0c10864fb50453b77 = $(`<div id="html_32ab45e942c2b6c0c10864fb50453b77" style="width: 100.0%; height: 100.0%;">             <b>Marc Sangnier - Porte de Vanves</b><br>             Capacité : 21<br>             Vélos disponibles : 0<br>             Vélos mécaniques : 0<br>             Vélos électriques : 0<br>             </div>`)[0];
+                popup_9eb21f0658a6d3154d95528efabf2feb.setContent(html_32ab45e942c2b6c0c10864fb50453b77);
+            
+        
+
+        marker_b3280c14d136a76d10ba47ffe7364228.bindPopup(popup_9eb21f0658a6d3154d95528efabf2feb)
+        ;
+
+        
+    
+    
+            var marker_b09039bb876e89ac616c1f5e2e2b217f = L.marker(
+                [48.876111, 2.4677312],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_043140c671c2128d2fa2b54d1094ad84 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b09039bb876e89ac616c1f5e2e2b217f.setIcon(icon_043140c671c2128d2fa2b54d1094ad84);
+        
+    
+        var popup_5b4660521ba4fb658aa093b94d7fa83f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ffa124c396b4061f725e5f1953086a4a = $(`<div id="html_ffa124c396b4061f725e5f1953086a4a" style="width: 100.0%; height: 100.0%;">             <b>Boissière - Etienne Dolet</b><br>             Capacité : 21<br>             Vélos disponibles : 3<br>             Vélos mécaniques : 2<br>             Vélos électriques : 1<br>             </div>`)[0];
+                popup_5b4660521ba4fb658aa093b94d7fa83f.setContent(html_ffa124c396b4061f725e5f1953086a4a);
+            
+        
+
+        marker_b09039bb876e89ac616c1f5e2e2b217f.bindPopup(popup_5b4660521ba4fb658aa093b94d7fa83f)
+        ;
+
+        
+    
+    
+            var marker_a70603ed41356dc7b64ee17fc83090b3 = L.marker(
+                [48.890451120965, 2.3490573929687],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_4ea91b5a971f4ccf2130018cd57c5c3a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a70603ed41356dc7b64ee17fc83090b3.setIcon(icon_4ea91b5a971f4ccf2130018cd57c5c3a);
+        
+    
+        var popup_afb488170fabb82cc2e930b0ab0361b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75cbf4231dd4e6005274bb0a495a7990 = $(`<div id="html_75cbf4231dd4e6005274bb0a495a7990" style="width: 100.0%; height: 100.0%;">             <b>Marcadet - Barbès</b><br>             Capacité : 37<br>             Vélos disponibles : 4<br>             Vélos mécaniques : 3<br>             Vélos électriques : 1<br>             </div>`)[0];
+                popup_afb488170fabb82cc2e930b0ab0361b6.setContent(html_75cbf4231dd4e6005274bb0a495a7990);
+            
+        
+
+        marker_a70603ed41356dc7b64ee17fc83090b3.bindPopup(popup_afb488170fabb82cc2e930b0ab0361b6)
+        ;
+
+        
+    
+    
+            var marker_2f1d03c0b67660f4480c7bd18b68ca93 = L.marker(
+                [48.84240765130395, 2.281037718057633],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_aae8cf5673ac609ac934c1216964b91a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2f1d03c0b67660f4480c7bd18b68ca93.setIcon(icon_aae8cf5673ac609ac934c1216964b91a);
+        
+    
+        var popup_23c28a1c454ba134b3b853a26d53afab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a720a760f36e81f6576d7ac3c20c1519 = $(`<div id="html_a720a760f36e81f6576d7ac3c20c1519" style="width: 100.0%; height: 100.0%;">             <b>Cevennes - Bergers</b><br>             Capacité : 29<br>             Vélos disponibles : 2<br>             Vélos mécaniques : 2<br>             Vélos électriques : 0<br>             </div>`)[0];
+                popup_23c28a1c454ba134b3b853a26d53afab.setContent(html_a720a760f36e81f6576d7ac3c20c1519);
+            
+        
+
+        marker_2f1d03c0b67660f4480c7bd18b68ca93.bindPopup(popup_23c28a1c454ba134b3b853a26d53afab)
+        ;
+
+        
+    
+    
+            var marker_f7ab8e8157b2ab6ec0a379fb3c968934 = L.marker(
+                [48.826701758539215, 2.3384983465075493],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_fa20b6ee33d4c2ed034b134cb1011d71 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f7ab8e8157b2ab6ec0a379fb3c968934.setIcon(icon_fa20b6ee33d4c2ed034b134cb1011d71);
+        
+    
+        var popup_83d6c7d4f33f9f31a5dcd233eb30c64f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3429f5132d8eb55c0e13cdc392b241bf = $(`<div id="html_3429f5132d8eb55c0e13cdc392b241bf" style="width: 100.0%; height: 100.0%;">             <b>Sibelle - Alésia</b><br>             Capacité : 37<br>             Vélos disponibles : 0<br>             Vélos mécaniques : 0<br>             Vélos électriques : 0<br>             </div>`)[0];
+                popup_83d6c7d4f33f9f31a5dcd233eb30c64f.setContent(html_3429f5132d8eb55c0e13cdc392b241bf);
+            
+        
+
+        marker_f7ab8e8157b2ab6ec0a379fb3c968934.bindPopup(popup_83d6c7d4f33f9f31a5dcd233eb30c64f)
+        ;
+
+        
+    
+    
+            var marker_ba6dc40796add3c3c8cb7157b4a2733f = L.marker(
+                [48.89110239200789, 2.402843534946442],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_3a96c8bb0704754ec4ea429009bbae3f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ba6dc40796add3c3c8cb7157b4a2733f.setIcon(icon_3a96c8bb0704754ec4ea429009bbae3f);
+        
+    
+        var popup_965aada8509ebbaa22ab653089a6e763 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a58f2f95e2da13139190896d3aa86c0 = $(`<div id="html_2a58f2f95e2da13139190896d3aa86c0" style="width: 100.0%; height: 100.0%;">             <b>Hoche - Jean Lolive</b><br>             Capacité : 24<br>             Vélos disponibles : 13<br>             Vélos mécaniques : 4<br>             Vélos électriques : 9<br>             </div>`)[0];
+                popup_965aada8509ebbaa22ab653089a6e763.setContent(html_2a58f2f95e2da13139190896d3aa86c0);
+            
+        
+
+        marker_ba6dc40796add3c3c8cb7157b4a2733f.bindPopup(popup_965aada8509ebbaa22ab653089a6e763)
+        ;
+
+        
+    
+    
+            var marker_f0bd8d9971e7c189699f827b859b5084 = L.marker(
+                [48.872420063053, 2.3483952362828],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_0048d99f844425dd0244efda514d43be = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f0bd8d9971e7c189699f827b859b5084.setIcon(icon_0048d99f844425dd0244efda514d43be);
+        
+    
+        var popup_202905653897232f6ee3d751b80bc9c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68b74f5d3389cb1c27b75f7f39fbb66a = $(`<div id="html_68b74f5d3389cb1c27b75f7f39fbb66a" style="width: 100.0%; height: 100.0%;">             <b>Enghien - Faubourg Poissonnière</b><br>             Capacité : 33<br>             Vélos disponibles : 22<br>             Vélos mécaniques : 14<br>             Vélos électriques : 8<br>             </div>`)[0];
+                popup_202905653897232f6ee3d751b80bc9c9.setContent(html_68b74f5d3389cb1c27b75f7f39fbb66a);
+            
+        
+
+        marker_f0bd8d9971e7c189699f827b859b5084.bindPopup(popup_202905653897232f6ee3d751b80bc9c9)
+        ;
+
+        
+    
+    
+            var marker_a8ebd41b316e15dc593f1ba826bf91bc = L.marker(
+                [48.886062068226, 2.2917001576821],
+                {
+}
+            ).addTo(map_7228f6819644f49e67708c5d88581de1);
+        
+    
+            var icon_0336ce57929d40d898e9ad457230bb6f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a8ebd41b316e15dc593f1ba826bf91bc.setIcon(icon_0336ce57929d40d898e9ad457230bb6f);
+        
+    
+        var popup_9041d3a880d0ad49526e72524e0abd30 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38e8c74860ca05e0eb40f775905605a2 = $(`<div id="html_38e8c74860ca05e0eb40f775905605a2" style="width: 100.0%; height: 100.0%;">             <b>Place de la Porte de Champeret</b><br>             Capacité : 28<br>             Vélos disponibles : 13<br>             Vélos mécaniques : 9<br>             Vélos électriques : 4<br>             </div>`)[0];
+                popup_9041d3a880d0ad49526e72524e0abd30.setContent(html_38e8c74860ca05e0eb40f775905605a2);
+            
+        
+
+        marker_a8ebd41b316e15dc593f1ba826bf91bc.bindPopup(popup_9041d3a880d0ad49526e72524e0abd30)
+        ;
+
+        
+    
+</script>
+</html>
